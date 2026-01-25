@@ -1,0 +1,23 @@
+{
+  "name": "num-cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ndborn/num-cal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ndborn/num-cal/issues"
+  },
+  "homepage": "https://github.com/2ndborn/num-cal#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
