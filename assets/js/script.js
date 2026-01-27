@@ -98,6 +98,11 @@ const personality = (input) => {
     return total
 }
 
+const maturityNumber = (lp, dn) => {
+    const total = lp.minor + dn.minor
+    return reduceMajor(total);
+}
+
 
 const reduceMinor = (n) => {
     while (n > 9) {
@@ -127,6 +132,7 @@ const dayMonthReduce = (n) => {
 const allResults = () => {
     const lp = lifePath();
     const dn = nameNumbers();
+    const mat = maturityNumber(lp, dn)
 
     results.innerHTML = `
         <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor}`}</h3>
@@ -134,6 +140,7 @@ const allResults = () => {
         <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`}</h3>
         <h3><span>Soul Urge Number: </span>${dn.soulU}</h3>
         <h3><span>Personality Number: </span>${dn.perso}</h3>
+        <h3><span>Maturity Number: </span>${mat}</h3>
     `
 }
 
