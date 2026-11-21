@@ -7,11 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <input type="text" id="day" inputmode="numeric" maxlength="2">
-        <input type="text" id="mon" inputmode="numeric" maxlength="2">
-        <input type="text" id="year" inputmode="numeric" maxlength="4">
-        <input type="text" id="name-input" placeholder="Name">
+    <div class="home-container">
+        <div class="dob">
+            <div class="day">
+                <input type="text" id="day" inputmode="numeric" maxlength="2" required>
+                <label for="">DD</label>
+            </div>
+            <div class="month">
+                <input type="text" id="mon" inputmode="numeric" maxlength="2" required>
+                <label for="">MM</label>
+            </div>
+            <div class="year">
+                <input type="text" id="year" inputmode="numeric" maxlength="4" required>
+                <label for="">YYYY</label>
+            </div>
+        </div>
+        <div class="names">
+            <input type="text" id="name-input" required>
+            <label for="">Full Name</label>
+        </div>
         <button id="btn">Calculate</button>
     </div>
     <div id="results">
