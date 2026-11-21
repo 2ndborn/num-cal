@@ -6,6 +6,7 @@ const nameInput = document.getElementById("name-input");
 const inputs = [...document.querySelectorAll("input")]
 const results = document.getElementById("results");
 const btn = document.getElementById("btn");
+const topBtn = document.getElementById("topBtn");
 
 document.addEventListener("DOMContentLoaded", () => {
     day.focus();
@@ -173,4 +174,14 @@ inputs.forEach(input => {
 btn.addEventListener("click", () => {
     allResults()
     results.scrollIntoView({behavior: "smooth"})
+})
+
+topBtn.addEventListener("click", () => {
+    window.scrollTo({top: 0, behavior: "smooth"})
+})
+
+window.addEventListener("scroll", () => {
+    console.log(window.scrollY)
+    topBtn.classList.toggle("show", window.scrollY > 10)
+    console.log(topBtn.className)
 })
