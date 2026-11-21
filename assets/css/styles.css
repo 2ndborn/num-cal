@@ -70,7 +70,7 @@
 
 .names input:focus + label,
 .names input:valid + label {
-    top: -4px;
+    top: 2px;
     left: 10px;
     font-size: 9px;
     padding: 0 2px;

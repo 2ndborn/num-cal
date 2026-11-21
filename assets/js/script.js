@@ -3,7 +3,9 @@ const day = document.getElementById("day");
 const mon = document.getElementById("mon");
 const year = document.getElementById("year");
 const nameInput = document.getElementById("name-input");
+const inputs = [...document.querySelectorAll("input")]
 const results = document.getElementById("results");
+const btn = document.getElementById("btn");
 
 document.addEventListener("DOMContentLoaded", () => {
     day.focus();
@@ -144,5 +146,31 @@ const allResults = () => {
     `
 }
 
-const btn = document.getElementById("btn");
-btn.addEventListener("click", allResults)
+const isDateValid = (day, month, year) => {
+    const date = new Date(
+        Number(year), 
+        Number(month) - 1, 
+        Number(day)
+    )
+
+    return (
+        date.getFullYear() === Number(year) &&
+        date.getMonth() === Number(month) - 1 &&
+        date.getDate() === Number(day)
+    )
+}
+
+const validForm = () => {
+    const valid = isDateValid(day.value, mon.value, year.value) &&
+    nameInput.value.trim()
+    btn.disabled = !valid
+}
+
+inputs.forEach(input => {
+    input.addEventListener("input", validForm)
+})
+
+btn.addEventListener("click", () => {
+    allResults()
+    results.scrollIntoView({behavior: "smooth"})
+})
