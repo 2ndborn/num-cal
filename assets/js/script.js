@@ -1,3 +1,7 @@
+import { alphabet } from "../data/alphabet.js";
+import { destinyNum } from "../data/destinyNum.js";
+import { mature } from "../data/mature.js";
+import { personNum } from "../data/personNum.js";
 import { soulResults } from "../data/soulUrge.js";
 
 const birth = document.getElementById("birthday");
@@ -21,35 +25,6 @@ day.addEventListener("input", () => {
 mon.addEventListener("input", () => {
     if (mon.value.length === mon.maxLength) year.focus();
 }) // moves to year input if max length is reached
-
-const alphabet = [
-    {name: "a", number: 1, vowel: true},
-    {name: "b", number: 2, vowel: false},
-    {name: "c", number: 3, vowel: false},
-    {name: "d", number: 4, vowel: false},
-    {name: "e", number: 5, vowel: true},
-    {name: "f", number: 6, vowel: false},
-    {name: "g", number: 7, vowel: false},
-    {name: "h", number: 8, vowel: false},
-    {name: "i", number: 9, vowel: true},
-    {name: "j", number: 10, vowel: false},
-    {name: "k", number: 11, vowel: false},
-    {name: "l", number: 12, vowel: false},
-    {name: "m", number: 13, vowel: false},
-    {name: "n", number: 14, vowel: false},
-    {name: "o", number: 15, vowel: true},
-    {name: "p", number: 16, vowel: false},
-    {name: "q", number: 17, vowel: false},
-    {name: "r", number: 18, vowel: false},
-    {name: "s", number: 19, vowel: false},
-    {name: "t", number: 20, vowel: false},
-    {name: "u", number: 21, vowel: true},
-    {name: "v", number: 22, vowel: false},
-    {name: "w", number: 23, vowel: false},
-    {name: "x", number: 24, vowel: false},
-    {name: "y", number: 25, vowel: false},
-    {name: "z", number: 26, vowel: false},
-]
 
 const lifePath = () => {
     const dayTotal = dayMonthReduce(day.value)// reduces day except 11, 22
@@ -134,27 +109,38 @@ const dayMonthReduce = (n) => {
     return n
 }
 
-const getResults = (data, num) => {
+const getResults = (data, major, minor) => {
     // finds the content that matches the number
-    return data.find(item => item.num === Number(num))
+    const match = data.find(item => item.num === Number(major))
+
+    return match || data.find(item => item.num === Number(minor))
 }
 
 const allResults = () => {
     const lp = lifePath();
     const dn = nameNumbers();
     const mat = maturityNumber(lp, dn);
-    const soul = getResults(soulResults, dn.soulU)
+    const destiny = getResults(destinyNum, dn.major, dn.minor);
+    const soul = getResults(soulResults, dn.soulU);
+    const person = getResults(personNum, dn.perso);
+    const maturity = getResults(mature, mat);
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
         <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor}`}</h3>
         <h3><span>Life Path Number: </span>${lp.major}/${lp.minor}</h3>
         <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`}</h3>
+        <h4>${destiny?.keywords || destinyM?.keywords}</h4>
+        <p>${destiny?.content || destinyM?.content}</p>
         <h3><span>Soul Urge Number: </span>${dn.soulU}</h3>
         <h4>${soul?.keywords || "You have no vowels in your name."}</h4>
         <p>${soul?.content || ""}</p>
         <h3><span>Personality Number: </span>${dn.perso}</h3>
+        <h4>${person.keywords}</h4>
+        <p>${person?.content}</p>
         <h3><span>Maturity Number: </span>${mat}</h3>
+        <h4>${maturity.keywords}</h4>
+        <p>${maturity?.content}</p>
     `
 }
 
