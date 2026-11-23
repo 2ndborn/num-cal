@@ -7,7 +7,8 @@ export const destinyNum = [
     {num: 6, keywords: "Nurturer | Family | Creative", content: "nurturer"},
     {num: 7, keywords: "Scientific | Researcher | Grounded", content: "truth seeker"},
     {num: 8, keywords: "Manifester | Authoritive | Leadership", content: "manifester"},
-    {num: 11, keywords: "Adaptive | Influential | Creative", content: "master teacher"},
+    {num: 9, keywords: "Adaptive | Influential | Creative", content: "master teacher"},
+    {num: 11, keywords: "Adaptive | Influential | Creative", content: "ending"},
     {num: 22, keywords: "Adaptive | Influential | Creative", content: "ending"},
     {num: 33, keywords: "Adaptive | Influential | Creative", content: "ending"}
 ];

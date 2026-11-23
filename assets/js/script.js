@@ -130,11 +130,11 @@ const allResults = () => {
         <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor}`}</h3>
         <h3><span>Life Path Number: </span>${lp.major}/${lp.minor}</h3>
         <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`}</h3>
-        <h4>${destiny?.keywords || destinyM?.keywords}</h4>
-        <p>${destiny?.content || destinyM?.content}</p>
-        <h3><span>Soul Urge Number: </span>${dn.soulU}</h3>
-        <h4>${soul?.keywords || "You have no vowels in your name."}</h4>
-        <p>${soul?.content || ""}</p>
+        <h4>${destiny?.keywords}</h4>
+        <p>${destiny?.content}</p>
+        <h3><span>Soul Urge Number: </span>${dn.soulU} - ${soul?.title}</h3>
+        <h4>${soul?.keywords || ""}</h4>
+        <p>${soul?.content || "You have no vowels in your name."}</p>
         <h3><span>Personality Number: </span>${dn.perso}</h3>
         <h4>${person.keywords}</h4>
         <p>${person?.content}</p>
