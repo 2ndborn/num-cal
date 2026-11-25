@@ -3,332 +3,562 @@ export const lifePathNum = [
         num: 1,
         title: "The Leader / Pioneer",
         keywords: "Leadership | Innovation | Independence", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are a natural pioneer. 
-        You are wired to step forward first, trust your own instincts, and build things from 
-        scratch rather than follow someone else's blueprint. Your biggest strength is your 
-        courage to initiate, just watch that your independence doesn't turn into stubbornness 
-        when good advice comes your way.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to learn how to stand on your own 
+        two feet, trust your instincts, and blaze a trail where no one has walked before. 
+        Your challenge is overcoming self-doubt early on and later, guarding against 
+        stubbornness or insisting on doing everything alone.`
     },
     {
         num: 2,
         title: "The Connector / Diplomat", 
         keywords: "Collaboration | Balance | Intuitive", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are a natural 
-        bridge-builder with an intuitive read on people. You pick up on unspoken 
-        moods, bring calm to tense rooms, and thrive in genuine partnership. Your 
-        gift is emotional intelligence, just make sure you don't sideline your own 
-        needs just to keep everyone else comfortable.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through.  You are here to master the art of connection, 
+        patience, and emotional intelligence. Your challenge is learning not to lose 
+        yourself in other people's moods or sacrifice your own needs just to keep the 
+        peace.`
     },
     {
         num: 3, 
         title: "The Creator / Communicator", 
         keywords: "Communication | Creativity | Optimistic", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are built to 
-        express, uplift, and communicate. Whether through words, humor, art, or social 
-        warmth, you bring light and fresh ideas wherever you go. Your magic happens 
-        when you channel that lively imagination into focused projects instead of 
-        scattering your energy across ten things at once.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to find your authentic voice, create, 
+        and bring joy and warmth into the world. Your challenge is quieting your inner 
+        critic and focusing your scattered energy so your ideas actually reach the finish 
+        line.`
     },
     {
         num: 4,
         title: "The Builder / Organiser",
         keywords: "Planning | Structured | Methodical", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are the anchor 
-        people rely on when things get chaotic. Practical, loyal, and methodical, you 
-        have an innate gift for turning messy ideas into solid, working systems. Allow 
-        yourself room to bend when life changes course flexibility will only make your 
-        foundations stronger.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to build things that last, bringing order, 
+        stability, and dedication to everything you touch. Your challenge is loosening your 
+        grip when life asks for flexibility, and remembering that your worth isn't measured 
+        solely by how hard you work.`
     },
     {
         num: 5, 
         title: "The Explorer / Catalyst",
         keywords: "Adaptable | Curious | Adventurer", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are wired for freedom, 
-        curiosity, and movement. Quick-thinking and adaptable, you learn fastest through 
-        real-world experience and thrive when life offers variety and fresh horizons. Your 
-        superpower is versatility, just keep enough structure in place so your energy builds 
-        momentum instead of drifting.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to experience life fully, embrace change, 
+        and learn what true freedom feels like. Your challenge is mastering self-discipline 
+        so that your hunger for adventure doesn't turn into restlessness or running away when 
+        things get real.`
     },
     {
         num: 6, 
         title: "The Nurturer / Steward", 
         keywords: "Home | Aesthetics | Healing", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are a natural caretaker 
-        and harmonizer. Warm, loyal, and drawn to beauty and stability, you instinctively step 
-        in to make homes, teams, and relationships work better. Remember that caring for others 
-        works best when you leave room for them to grow—and save plenty of that generosity for 
-        yourself.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to learn the true meaning of love, responsibility, 
+        and harmonious service to family and community. Your challenge is realizing you cannot rescue 
+        everyone, and learning to care for others without controlling or exhausting yourself.`
     },
     {
         num: 7, 
         title: "The Seeker / Strategist", 
         keywords: "Wisdom | Researcher | Introspective", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are a deep thinker and 
-        natural truth-seeker. Sharp, observant, and drawn to mastery, you aren't satisfied 
-        with surface answers, you want to understand how things really work beneath the hood. 
-        Honor your need for quiet reflection, while keeping a bridge open to share your wisdom 
-        with people who value it.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to seek deeper truth, develop sharp wisdom, and 
+        trust your own inner knowing. Your challenge is resisting the urge to pull away into 
+        isolation or let cynicism block you from genuine connection.`
     },
     {
         num: 8, 
         title: "The Manifestor / Executive",
         keywords: "Abundance | Authoritive | Leadership", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are built for 
-        leadership, resilience, and tangible achievement. You naturally see the big 
-        commercial or strategic picture and have the grit to turn ambition into real 
-        world results. True mastery for you comes from using your strength to empower 
-        others and knowing your worth goes far beyond your scorecard.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to step into your personal power, master 
+        the material world, and lead with integrity. Your challenge is balancing ambition 
+        with heart, learning that real authority comes from empowerment, not control.`
     },
     {
         num: 9, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You carry an old soul 
-        perspective, broad-minded, compassionate, and naturally tuned into the bigger 
-        human picture. People feel safe around your generosity and artistic or philosophical 
-        depth. Practice letting go of past chapters cleanly so your energy stays free for 
-        what you're here to uplift next.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to develop universal compassion, 
+        share hard won wisdom, and learn the grace of letting go. Your challenge is 
+        releasing old resentments and recognizing where your responsibility ends so 
+        you don't carry the weight of the whole world.`
     },
     {
         num: 10, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You carry the pure 
-        spark of a leader (1) backed by limitless adaptability and fresh potential (0). 
-        You have sharp instincts, bounce back fast from setbacks, and naturally attract 
-        opportunities when you trust your gut. Your main lesson is following through 
-        once the excitement of a brand-new start wears off.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You carry a clean slate of pure pioneering energy, 
+        you're here to trust your originality and step out first, even when no one else 
+        sees your vision yet. Your hurdle is hesitating at the starting line out of fear 
+        of standing alone.`
     },
     {
         num: 11, 
         title: "11/2 — Master Number", 
         keywords: "Spiritual Insight | Influential | Perceptive", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You carry a 
-        high-voltage intuitive antenna. You don't just observe life you feel the 
-        undercurrents, connect dots before others see them, and inspire people 
-        through your insight. Grounding your nervous system and trusting your gut 
-        over self-doubt is the key to unlocking your gift.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are wired like a spiritual antenna, picking up 
+        insights and inspiration before others do, and learning to ground them in real 
+        relationships. Your hurdle is managing nervous tension and trusting your intuition 
+        instead of second-guessing yourself.`
     },
     {
         num: 12, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You turn personal drive (1) 
-        into creative expression (3) by working through connection and teamwork (2). You have 
-        a gift for taking an individual vision and shaping it into something engaging that 
-        resonates with others. Trust your voice and try not to overthink how people will react.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You learn to find your creative voice by blending 
+        personal initiative with genuine teamwork. Your hurdle is holding back what you 
+        really think or over-giving just to stay liked.`
     },
     {
         num: 13, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You build lasting success (4) 
-        by channeling personal initiative (1) through creative adaptability (3). You have 
-        tremendous stamina and a knack for transforming tough challenges into durable results. 
-        Avoid shortcuts, trust your steady work ethic, and remember to enjoy the process, not 
-        just the finish line.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to master focus, patience, and steady 
+        craftsmanship, turning bold ideas into solid results step by step. Your hurdle is 
+        frustration when progress feels slow, tempting you to look for shortcuts.`
     },
     {
         num: 14, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You unlock true personal freedom 
-        (5) when you channel your independent drive (1) through focus and self-discipline (4). You 
-        are magnetic, perceptive, and quick on your feet. Balance your appetite for excitement with 
-        steady habits, and your adaptability becomes unstoppable.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are learning how to claim genuine freedom through 
+        self-mastery and adaptability. Your hurdle is resisting extremes, avoiding 
+        impulsiveness on one side and feeling trapped by routine on the other.`
     },
     {
         num: 15, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You channel independent initiative 
-        (1) through charm and adaptability (5) to create warmth, beauty, and harmony (6). People are 
-        drawn to your magnetic, supportive energy. Your balancing act is honoring your own need for 
-        freedom while still showing up for the people and projects you love.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are learning how to claim genuine freedom 
+        through self-mastery and adaptability. Your hurdle is resisting extremes, avoiding 
+        impulsiveness on one side and feeling trapped by routine on the other.`
     },
     {
         num: 16, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. Your path transforms personal 
-        willpower (1) through humility, heart, and relationship lessons (6) into profound inner 
-        wisdom (7). Life's turning points sharpen your intuition and give you rare insight into
-        human nature. Don't let past disappointments wall off your heart, your depth is meant 
-        to be shared.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. Your path strips away ego so you can uncover deep 
+        spiritual truth and authentic connection. Your hurdle is learning to surrender 
+        rigid plans gracefully when life invites you to rebuild from the inside out.`
     },
     {
         num: 17, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You achieve lasting authority 
-        and abundance (8) by pairing independent drive (1) with deep strategy, research, and 
-        intuition (7). You don't rely on brute force, you win through smart positioning and foresight. 
-        Trust your instincts, and don't be afraid to let trusted allies in behind the scenes.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to pair bold independence with sharp 
+        strategic insight to build lasting success. Your hurdle is bridging the gap between 
+        quiet inner reflection and decisive action in the outer world.`
     },
     {
         num: 18, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You channel independent leadership 
-        (1) through executive strength and resource mastery (8) to make a meaningful, wide-reaching 
-        impact (9). You aren't satisfied with success unless it serves a bigger purpose. Pair your 
-        high standards with patience for human imperfection, and your leadership leaves a lasting 
-        mark.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are learning to unite personal drive with executive 
+        strength in service of a bigger cause. Your hurdle is leading with patience and empathy 
+        rather than force when others move slower than you.`
     },
     {
         num: 19, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. Your journey is 
-        about mastering true self-reliance (1) by learning how to give and let go 
-        (9). You have immense inner strength and leadership drive, though life 
-        often nudges you to release pride and accept support from others. Once you 
-        balance independence with openness, very little can stop you.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are mastering true, unselfish leadership, learning 
+        that standing tall doesn't mean shutting people out. Your hurdle is letting go of 
+        pride and allowing others to support you.`
     },
     {
         num: 20, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. Your sensitivity (2) 
-        is deepened by a wide-open emotional receptivity (0). People naturally trust you 
-        with their stories because you listen without judgment and sense what they truly 
-        need. Protect your personal energy so you don't absorb the moods of every room you 
-        walk into.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You have a gift for reading the room and bringing 
+        harmony to tense situations. Your hurdle is protecting your emotional boundaries 
+        so you don't absorb everyone else's stress.`
     },
     {
         num: 21, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You combine natural warmth 
-        and people-sense (2) with confident initiative (1) to radiate charm, creativity, and 
-        persuasive communication (3). Doors open easily for you through conversation and 
-        networking, just guard against saying 'yes' to so much that you burn yourself out.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You learn to shine socially and creatively by pairing 
+        genuine empathy with growing self-confidence. Your hurdle is riding out mood swings 
+        and refusing to dim your light out of fear of judgment.`
     },
     {
         num: 22, 
         title: "The Master Builder", 
         keywords: "Practical Visionary | Manifestation | Master Architect",
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You carry the blueprint of a 
-        Master Builder, combining big-picture vision with grounded, practical execution (4). 
-        You are wired to build systems, businesses, or communities that outlast you. Take things 
-        one brick at a time so the sheer scale of your ambitions never paralyzes you.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You carry the blueprint to turn visionary, 
+        big-picture dreams into tangible institutions that uplift others. Your hurdle 
+        is feeling overwhelmed by the size of your own potential, break your vision 
+        into bit size chunks.`
     },
     {
         num: 23, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You read people effortlessly (2) 
-        and use lively communication (3) to navigate any environment with ease (5). You have natural 
-        charisma, quick wit, and a gift for connecting with all walks of life. Let people see your 
-        deeper heart behind the humor, and your connections will feel even richer.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are meant to learn through people, conversation, 
+        and dynamic movement, turning curiosity into wisdom. Your hurdle is staying anchored 
+        long enough to finish what you start instead of scattering your energy.`
     },
     {
         num: 24, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You are a practical steward of people 
-        and harmony. You start by tuning into what others genuinely need (2), apply steady planning and 
-        reliable effort (4), and create a grounded, nurturing environment where everyone feels supported 
-        (6). Your gift is turning care into concrete action just guard against taking on everyone else's 
-        responsibilities as your own.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You build stability and care through steady, practical 
+        devotion to the people in your circle. Your hurdle is learning to say "no" so worry 
+        and over-responsibility don't weigh you down.`
     },
     {
         num: 25, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You combine sharp 
-        intuition and empathy (2) with real-world curiosity (5) to uncover deeper truth 
-        and mastery (7). You have both street smarts and analytical depth, you test ideas 
-        in the real world before trusting them. Balance your healthy skepticism with 
-        openness so you don't over analyze every feeling.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You discover deep truth by testing your intuition 
+        against real-world experience and human relationships. Your hurdle is keeping 
+        your heart open and trusting your inner voice even after trial and error 
+        disappointments.`
     },
     {
         num: 26, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You generate abundance 
-        and leadership (8) by tuning into people's needs (2) and taking genuine responsibility 
-        for their wellbeing and success (6). People trust your authority because it's rooted 
-        in care and integrity. Keep clear boundaries so you support people who are ready to 
-        rise rather than carrying those who won't try.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to build real-world abundance and 
+        leadership by tuning into people's needs and taking responsibility for their 
+        wellbeing. Your hurdle is keeping firm boundaries so your generosity fuels your 
+        strength rather than draining it.`
     },
     {
         num: 27, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You blend intuitive 
-        empathy (2) with deep analytical and spiritual insight (7) to guide, teach, or 
-        uplift others on a broad scale (9). You have a gift for translating complex truths 
-        into wisdom people can actually use. Protect your emotional bandwidth so you don't 
-        burn out absorbing everyone else's struggles.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are learning to unite a compassionate heart with a 
+        sharp, analytical mind to guide and uplift others. Your hurdle is staying emotionally 
+        engaged when life or people fall short of your ideals.`
     },
     {
         num: 28, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You lead through 
-        people and big-picture execution. You take the diplomacy and awareness of 
-        (2), channel it through the ambition and business sense of (8), and emerge as 
-        an independent leader (1). You thrive when rallying others around bold goals, 
-        just be patient with teammates who don't move at your speed.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You master collaborative leadership, learning how to 
+        stand in your own authority while working side by side with strong partners. Your 
+        hurdle is bouncing back quickly from setbacks without losing faith in your own judgment.`
     },
     {
         num: 29, 
         title: "29/2 — Master Number", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You blend deep relationship 
-        awareness (2) with broad compassion and wisdom (9) to channel rare intuitive vision 
-        (11). You feel things deeply and are drawn to meaningful, uplifting work. Your growth 
-        comes from setting healthy boundaries so you don't carry the weight of the whole world 
-        on your shoulders.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to bridge deep emotional sensitivity with universal 
+        compassion, inspiring others simply by how you live. Your hurdle is staying grounded in everyday 
+        life and resisting the urge to carry everyone's pain.`
     },
     {
         num: 30, 
         title: "The Humanitarian / Sage", 
         keywords: "Adaptive | Influential | Compassionate", 
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. Your creativity (3) has an 
-        extra wide canvas (0). You have a vivid imagination, natural charisma, and a gift for 
-        storytelling or inspiring crowds. When you pair your expressive flair with steady 
-        follow through on the practical details, your ideas go far.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You carry abundant creative and expressive potential, you're 
+        here to share your voice and lift spirits. Your hurdle is turning inspiration into finished 
+        reality instead of staying stuck in endless brainstorming.`
     },
     {
         num: 31, 
         title: "The Master Teacher / Healer",
         keywords: "Creative Healing | Unconditional Love | Wise Mentor",  
-        content: `The Birth Date represents a specific innate talent, habit, or 
-        mental lens you naturally use to navigate your Life Path. You bring fresh, imaginative 
-        ideas (3) through decisive action (1) to create practical, original structures (4). 
-        Unlike a traditional planner, you innovate within structure. When you stay patient with 
-        slower moving people, you turn creative concepts into tangible reality.`
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You learn to give structure to original ideas, turning creative 
+        sparks into practical, workable systems. Your hurdle is staying patient with the slow, 
+        methodical side of building.`
+    },
+    {
+        num: 32,
+        title: "The Connector / Diplomat", 
+        keywords: "Collaboration | Balance | Intuitive", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You thrive when blending expressive communication with 
+        diplomacy and adaptability. Your hurdle is choosing depth over distraction so your 
+        connections stay meaningful.`
+    },
+    {
+        num: 33, 
+        title: "The Creator / Communicator", 
+        keywords: "Communication | Creativity | Optimistic", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are called to lead through unconditional love, healing 
+        wisdom, and joyful service. Your hurdle is releasing perfectionism and remembering you 
+        don't have to fix the whole world single-handedly.`
+    },
+    {
+        num: 34,
+        title: "The Builder / Organiser",
+        keywords: "Planning | Structured | Methodical", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. • You pair creative curiosity with serious, methodical 
+        study to uncover grounded wisdom. Your hurdle is honoring both your playful side and 
+        your need for quiet, focused research.`
+    },
+    {
+        num: 35, 
+        title: "The Explorer / Catalyst",
+        keywords: "Adaptable | Curious | Adventurer", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You learn to turn creative ideas and versatility into 
+        real-world enterprise and abundance. Your hurdle is building steady financial habits 
+        despite your love for variety and bold risks.`
+    },
+    {
+        num: 36, 
+        title: "The Nurturer / Steward", 
+        keywords: "Home | Aesthetics | Healing", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You express creativity through caring, nurturing service 
+        that leaves a lasting mark on your community. Your hurdle is giving freely without tying 
+        your self-worth to approval or getting tangled in family drama.`
+    },
+    {
+        num: 37, 
+        title: "The Seeker / Strategist", 
+        keywords: "Wisdom | Researcher | Introspective", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You walk an original path, blending a creative voice with deep 
+        philosophical truth to lead in your own unique way. Your hurdle is feeling misunderstood 
+        early on, trust your perspective anyway.`
+    },
+    {
+        num: 38, 
+        title: "The Manifestor / Executive",
+        keywords: "Abundance | Authoritive | Leadership", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You unite intuitive vision with executive drive, learning to lead 
+        through both insight and strength. Your hurdle is balancing outer ambition with emotional 
+        openness in close relationships.`
+    },
+    {
+        num: 39, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You unite intuitive vision with executive drive, learning 
+        to lead through both insight and strength. Your hurdle is balancing outer ambition with 
+        emotional openness in close relationships.`
+    },
+    {
+        num: 40, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are building unshakeable inner and outer stability from 
+        the ground up. Your hurdle is softening stubborn habits and releasing unnecessary pressure 
+        on yourself.`
+    },
+    {
+        num: 41, 
+        title: "11/2 — Master Number", 
+        keywords: "Spiritual Insight | Influential | Perceptive", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You learn how to create freedom through discipline, combining 
+        practical structure with pioneering courage. Your hurdle is resolving the inner tug-of-war 
+        between craving security and craving change.`
+    },
+    {
+        num: 42, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You lead best by creating dependable systems that support 
+        and protect the people around you. Your hurdle is letting others carry their own weight 
+        instead of micromanaging every detail.`
+    },
+    {
+        num: 43, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You bring creative insight down to earth through patient 
+        analysis and steady effort. Your hurdle is trusting your intuition alongside hard facts 
+        rather than defaulting to skepticism.`
+    },
+    {
+        num: 44, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You carry double-strength grounding to build large-scale, 
+        enduring structures in the material world. Your hurdle is pacing yourself so relentless 
+        work doesn't lead to burnout.`
+    },
+    {
+        num: 45, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You use practical organization to navigate big life 
+        transitions and serve the broader community. Your hurdle is staying flexible when 
+        life rewrites your carefully laid plans.`
+    },
+    {
+        num: 46, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You step into self-reliant leadership by building 
+        reliable foundations in service of others. Your hurdle is making sure your own 
+        goals don't always get pushed behind everyone else's needs.`
+    },
+    {
+        num: 47, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You anchor deep intuitive and analytical insight 
+        into practical, real-world form. Your hurdle is translating complex inner truths 
+        into simple words others can grasp.`
+    },
+    {
+        num: 48, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You blend hard work and executive strength to create 
+        expressive abundance. Your hurdle is giving yourself permission to enjoy the rewards 
+        of your labor instead of always chasing the next milestone.`
+    },
+    {
+        num: 49, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You master focus and endurance by dedicating disciplined 
+        effort toward something larger than yourself. Your hurdle is staying patient and 
+        optimistic when meaningful progress takes time.`
+    },
+    {
+        num: 50, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are here to embrace fearless exploration and discover 
+        freedom from the inside out. Your hurdle is learning where to plant roots so freedom 
+        feels empowering rather than restless.`
+    },
+    {
+        num: 51, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You channel adventurous energy through focused leadership 
+        to build a warm, devoted life. Your hurdle is embracing steady commitment without feeling 
+        like it limits your spirit.`
+    },
+    {
+        num: 52, 
+        title: "The Master Builder", 
+        keywords: "Practical Visionary | Manifestation | Master Architect",
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You gather wisdom through rich life experiences filtered 
+        through emotional sensitivity. Your hurdle is carving out quiet stillness to process 
+        everything you observe.`
+    },
+    {
+        num: 53, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You combine quick adaptability with persuasive communication 
+        to create dynamic success. Your hurdle is keeping consistent financial focus rather than 
+        chasing every shiny new opportunity.`
+    },
+    {
+        num: 54, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You turn a wide range of life experiences and practical 
+        skills into grounded, worldly compassion. Your hurdle is letting go of old chapters 
+        gracefully when it's time to move forward.`
+    },
+    {
+        num: 55, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You are wired for bold reinvention, learning fearless 
+        independence through intense periods of change. Your hurdle is cultivating inner calm 
+        and stability while life moves fast around you.`
+    },
+    {
+        num: 56, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You balance a free-spirited curiosity with deep intuitive 
+        care and loyalty to others. Your hurdle is honoring your need for space without neglecting 
+        the people who count on you.`
+    },
+    {
+        num: 57, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You blend real-world adventure with deep philosophical 
+        truth to inspire and teach others. Your hurdle is staying emotionally connected rather 
+        than retreating into your own head.`
+    },
+    {
+        num: 58, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You harness high-energy change and executive strength 
+        into disciplined, focused mastery. Your hurdle is channeling your intensity 
+        constructively and avoiding unnecessary power struggles.`
+    },
+    {
+        num: 59, 
+        title: "29/2 — Master Number", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You discover true inner freedom by turning varied life 
+        lessons into compassionate detachment. Your hurdle is practicing balance and 
+        emotional presence rather than escaping discomfort.`
+    },
+    {
+        num: 60, 
+        title: "The Humanitarian / Sage", 
+        keywords: "Adaptive | Influential | Compassionate", 
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You carry a pure calling toward devoted stewardship, 
+        harmony, and heartfelt care on a wide scale. Your hurdle is guarding your energy 
+        while naturally drawing people who seek your support.`
+    },
+    {
+        num: 61, 
+        title: "The Master Teacher / Healer",
+        keywords: "Creative Healing | Unconditional Love | Wise Mentor",  
+        content: `The Life represents your overarching journey, major life lessons, 
+        and terrain you walk through. You stand at a rare intersection of visionary sensitivity 
+        and deep analytical mastery, learning to channel nurturing responsibility (6) through 
+        pioneering independence (1) to uncover profound spiritual and intellectual truth (7). 
+        Your hurdle is bridging your rich, solitary inner world with everyday human connection 
+        so you never feel isolated by your own depth.`
     }
 ];
