@@ -1,4 +1,5 @@
 import { alphabet } from "../data/alphabet.js";
+import { birthDay } from "../data/birthDay.js";
 import { destinyNum } from "../data/destinyNum.js";
 import { mature } from "../data/mature.js";
 import { personNum } from "../data/personNum.js";
@@ -28,9 +29,12 @@ mon.addEventListener("input", () => {
 
 const lifePath = () => {
     const dayTotal = dayMonthReduce(day.value)// reduces day except 11, 22
+    console.log("daytotal:", dayTotal)
     const dayTot = Array.from(day.value, Number).reduce((acc, num) => acc + num, 0); // used for the ternary operator in allResult()
+    console.log("total:", dayTot)
     const monthTotal = dayMonthReduce(mon.value); // reduces month except 11, 22
     const yearTotal = Array.from(year.value, Number).reduce((acc, num) => acc + num, 0);
+    console.log("Year:", yearTotal)
     const total = dayTotal + monthTotal + yearTotal;
     return {dayMajor: Number(day.value), dayMinor: dayTot, major: total, minor: reduceMinor(total)}
 }
@@ -109,6 +113,15 @@ const dayMonthReduce = (n) => {
     return n
 }
 
+const masterKarmic = (num) => {
+    if ([13, 14, 15, 16, 19 ].includes(num)) {
+        return "(Karmic Debt)"
+    } else if ([11, 22].includes(num)) {
+        return "(Master Number)"
+    }
+    return ""
+}
+
 const getResults = (data, major, minor) => {
     // finds the content that matches the number
     const match = data.find(item => item.num === Number(major))
@@ -120,17 +133,21 @@ const allResults = () => {
     const lp = lifePath();
     const dn = nameNumbers();
     const mat = maturityNumber(lp, dn);
+    const birthDate = getResults(birthDay, lp.dayMajor, lp.dayMajor)
     const destiny = getResults(destinyNum, dn.major, dn.minor);
     const soul = getResults(soulResults, dn.soulU);
     const person = getResults(personNum, dn.perso);
     const maturity = getResults(mature, mat);
+    const karmic = masterKarmic(lp.dayMajor);
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
-        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor}`}</h3>
         <h3><span>Life Path Number: </span>${lp.major}/${lp.minor}</h3>
+        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor} ${karmic}`}</h3>
+        <h4>Keywords: ${birthDate?.keywords}</h4>
+        <p>${birthDate?.content}</p>
         <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`}</h3>
-        <h4>${destiny?.keywords}</h4>
+        <h4>Keywords: ${destiny?.keywords}</h4>
         <p>${destiny?.content}</p>
         <h3><span>Soul Urge Number: </span>${dn.soulU} - ${soul?.title}</h3>
         <h4>${soul?.keywords || ""}</h4>

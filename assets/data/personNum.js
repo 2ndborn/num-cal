@@ -49,7 +49,7 @@ export const personNum = [
         title: "The Nurturer / Steward", 
         keywords: "Home | Aesthetics | Healing", 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
+        social filter, how others perceive you before they know your 
         deeper self. You are seen immediately as welcoming, protective, 
         responsible, and warm-hearted.`
     },
