@@ -2,7 +2,7 @@ export const birthDay = [
     {
         num: 1,
         title: "The Leader / Pioneer",
-        keywords: "Leadership | Innovation | Independence", 
+        keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are a natural pioneer. 
         You are wired to step forward first, trust your own instincts, and build things from 
@@ -13,7 +13,7 @@ export const birthDay = [
     {
         num: 2,
         title: "The Connector / Diplomat", 
-        keywords: "Collaboration | Balance | Intuitive", 
+        keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are a natural 
         bridge-builder with an intuitive read on people. You pick up on unspoken 
@@ -24,7 +24,7 @@ export const birthDay = [
     {
         num: 3, 
         title: "The Creator / Communicator", 
-        keywords: "Communication | Creativity | Optimistic", 
+        keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are built to 
         express, uplift, and communicate. Whether through words, humor, art, or social 
@@ -35,7 +35,7 @@ export const birthDay = [
     {
         num: 4,
         title: "The Builder / Organiser",
-        keywords: "Planning | Structured | Methodical", 
+        keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are the anchor 
         people rely on when things get chaotic. Practical, loyal, and methodical, you 
@@ -46,7 +46,7 @@ export const birthDay = [
     {
         num: 5, 
         title: "The Explorer / Catalyst",
-        keywords: "Adaptable | Curious | Adventurer", 
+        keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are wired for freedom, 
         curiosity, and movement. Quick-thinking and adaptable, you learn fastest through 
@@ -57,7 +57,7 @@ export const birthDay = [
     {
         num: 6, 
         title: "The Nurturer / Steward", 
-        keywords: "Home | Aesthetics | Healing", 
+        keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are a natural caretaker 
         and harmonizer. Warm, loyal, and drawn to beauty and stability, you instinctively step 
@@ -68,7 +68,7 @@ export const birthDay = [
     {
         num: 7, 
         title: "The Seeker / Strategist", 
-        keywords: "Wisdom | Researcher | Introspective", 
+        keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are a deep thinker and 
         natural truth-seeker. Sharp, observant, and drawn to mastery, you aren't satisfied 
@@ -79,7 +79,7 @@ export const birthDay = [
     {
         num: 8, 
         title: "The Manifestor / Executive",
-        keywords: "Abundance | Authoritive | Leadership", 
+        keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are built for 
         leadership, resilience, and tangible achievement. You naturally see the big 
@@ -90,7 +90,7 @@ export const birthDay = [
     {
         num: 9, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You carry an old soul 
         perspective, broad-minded, compassionate, and naturally tuned into the bigger 
@@ -101,7 +101,7 @@ export const birthDay = [
     {
         num: 10, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Illumination", "Intuition", "Inspiration", "Sensitivity", "Insight"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You carry the pure 
         spark of a leader (1) backed by limitless adaptability and fresh potential (0). 
@@ -112,7 +112,7 @@ export const birthDay = [
     {
         num: 11, 
         title: "11/2 — Master Number", 
-        keywords: "Spiritual Insight | Influential | Perceptive", 
+        keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You carry a 
         high-voltage intuitive antenna. You don't just observe life you feel the 
@@ -123,7 +123,7 @@ export const birthDay = [
     {
         num: 12, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Collaborative Creativity", "Charm", "Tact", "Self-Expression"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You turn personal drive (1) 
         into creative expression (3) by working through connection and teamwork (2). You have 
@@ -133,7 +133,7 @@ export const birthDay = [
     {
         num: 13, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Focus", "Craftsmanship", "Perseverance", "Transformation"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You build lasting success (4) 
         by channeling personal initiative (1) through creative adaptability (3). You have 
@@ -144,7 +144,7 @@ export const birthDay = [
     {
         num: 14, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Balanced Freedom", "Self-Mastery", "Versatility", "Moderation"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You unlock true personal freedom 
         (5) when you channel your independent drive (1) through focus and self-discipline (4). You 
@@ -154,7 +154,7 @@ export const birthDay = [
     {
         num: 15, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Magnetic Care", "Domestic Harmony", "Adaptability", "Charisma"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You channel independent initiative 
         (1) through charm and adaptability (5) to create warmth, beauty, and harmony (6). People are 
@@ -164,7 +164,7 @@ export const birthDay = [
     {
         num: 16, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Spiritual Awakening", "Humility", "Renewal", "Inner Truth"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. Your path transforms personal 
         willpower (1) through humility, heart, and relationship lessons (6) into profound inner 
@@ -175,7 +175,7 @@ export const birthDay = [
     {
         num: 17, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Strategic Power", "Insightful Leadership", "Resilience", "Authority"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You achieve lasting authority 
         and abundance (8) by pairing independent drive (1) with deep strategy, research, and 
@@ -185,7 +185,7 @@ export const birthDay = [
     {
         num: 18, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Purposeful Power", "Humanitarian Leadership", "Integrity", "Vision"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You channel independent leadership 
         (1) through executive strength and resource mastery (8) to make a meaningful, wide-reaching 
@@ -196,7 +196,7 @@ export const birthDay = [
     {
         num: 19, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Humble Leadership", "Interdependence", "Resilience", "Self-Mastery"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. Your journey is 
         about mastering true self-reliance (1) by learning how to give and let go 
@@ -207,7 +207,7 @@ export const birthDay = [
     {
         num: 20, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Humble Leadership", "Interdependence", "Resilience", "Self-Mastery"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. Your sensitivity (2) 
         is deepened by a wide-open emotional receptivity (0). People naturally trust you 
@@ -218,7 +218,7 @@ export const birthDay = [
     {
         num: 21, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You combine natural warmth 
         and people-sense (2) with confident initiative (1) to radiate charm, creativity, and 
@@ -228,7 +228,7 @@ export const birthDay = [
     {
         num: 22, 
         title: "The Master Builder", 
-        keywords: "Practical Visionary | Manifestation | Master Architect",
+        keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You carry the blueprint of a 
         Master Builder, combining big-picture vision with grounded, practical execution (4). 
@@ -238,7 +238,7 @@ export const birthDay = [
     {
         num: 23, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Persuasion", "Social Agility", "Curiosity", "Quick Wit"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You read people effortlessly (2) 
         and use lively communication (3) to navigate any environment with ease (5). You have natural 
@@ -248,7 +248,7 @@ export const birthDay = [
     {
         num: 24, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Dependable Care", "Practical Nurturing", "Organization", "Loyalty"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You are a practical steward of people 
         and harmony. You start by tuning into what others genuinely need (2), apply steady planning and 
@@ -259,7 +259,7 @@ export const birthDay = [
     {
         num: 25, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Experiential Wisdom", "Discerning Intuition", "Depth", "Observation"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You combine sharp 
         intuition and empathy (2) with real-world curiosity (5) to uncover deeper truth 
@@ -270,7 +270,7 @@ export const birthDay = [
     {
         num: 26, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Ethical Abundance", "Protective Leadership", "Stewardship", "Partnership"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You generate abundance 
         and leadership (8) by tuning into people's needs (2) and taking genuine responsibility 
@@ -281,7 +281,7 @@ export const birthDay = [
     {
         num: 27, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Compassionate Wisdom", "Analytical Empathy", "Guidance", "Depth"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You blend intuitive 
         empathy (2) with deep analytical and spiritual insight (7) to guide, teach, or 
@@ -292,7 +292,7 @@ export const birthDay = [
     {
         num: 28, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Collaborative Command", "Executive Drive", "Partnership", "Resilience"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You lead through 
         people and big-picture execution. You take the diplomacy and awareness of 
@@ -303,7 +303,7 @@ export const birthDay = [
     {
         num: 29, 
         title: "29/2 — Master Number", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Soulful Intuition", "Universal Empathy", "Spiritual Guidance", "Sensitivity"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You blend deep relationship 
         awareness (2) with broad compassion and wisdom (9) to channel rare intuitive vision 
@@ -314,7 +314,7 @@ export const birthDay = [
     {
         num: 30, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Boundless Imagination", "Storytelling", "Joy", "Inspiration"], 
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. Your creativity (3) has an 
         extra wide canvas (0). You have a vivid imagination, natural charisma, and a gift for 
@@ -324,7 +324,7 @@ export const birthDay = [
     {
         num: 31, 
         title: "The Master Teacher / Healer",
-        keywords: "Creative Healing | Unconditional Love | Wise Mentor",  
+        keywords: ["Practical Innovation", "Structured Creativity", "Initiative", "Focus"],  
         content: `The Birth Date represents a specific innate talent, habit, or 
         mental lens you naturally use to navigate your Life Path. You bring fresh, imaginative 
         ideas (3) through decisive action (1) to create practical, original structures (4). 

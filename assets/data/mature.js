@@ -2,7 +2,7 @@ export const mature = [
     {
         num: 1,
         title: "The Independent Leader",
-        keywords: "Leadership | Innovation | Independence", 
+        keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -15,7 +15,7 @@ export const mature = [
     {
         num: 2,
         title: "The Wise Peacemaker", 
-        keywords: "Collaboration | Balance | Intuitive", 
+        keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -28,7 +28,7 @@ export const mature = [
     {
         num: 3, 
         title: "The Joyful Communicator", 
-        keywords: "Communication | Creativity | Optimistic", 
+        keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -41,7 +41,7 @@ export const mature = [
     {
         num: 4,
         title: "The Grounded Architect",
-        keywords: "Planning | Structured | Methodical", 
+        keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -54,7 +54,7 @@ export const mature = [
     {
         num: 5, 
         title: "The Liberated Explorer",
-        keywords: "Adaptable | Curious | Adventurer", 
+        keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -67,7 +67,7 @@ export const mature = [
     {
         num: 6, 
         title: "The Devoted Steward", 
-        keywords: "Home | Aesthetics | Healing", 
+        keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -80,7 +80,7 @@ export const mature = [
     {
         num: 7, 
         title: "The Inner Sage", 
-        keywords: "Wisdom | Researcher | Introspective", 
+        keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -93,7 +93,7 @@ export const mature = [
     {
         num: 8, 
         title: "The Strategic Executive",
-        keywords: "Abundance | Authoritive | Leadership", 
+        keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -106,7 +106,7 @@ export const mature = [
     {
         num: 9, 
         title: "The Compassionate Humanitarian", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -119,7 +119,7 @@ export const mature = [
     {
         num: 11, 
         title: "The Inituitive Guide", 
-        keywords: "Spiritual Insight | Influential | Perceptive", 
+        keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -132,7 +132,7 @@ export const mature = [
     {
         num: 22, 
         title: "The Master Architect", 
-        keywords: "Practical Visionary | Manifestation | Master Architect",
+        keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 
@@ -145,7 +145,7 @@ export const mature = [
     {
         num: 33, 
         title: "The Master Teacher / Healer",
-        keywords: "Creative Healing | Unconditional Love | Wise Mentor",  
+        keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
         and begins awakening around age 35 to 45, becoming a dominant guiding 
         force from your late 40s onward. In your younger years, your Life Path 

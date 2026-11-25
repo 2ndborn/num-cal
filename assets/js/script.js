@@ -1,6 +1,7 @@
 import { alphabet } from "../data/alphabet.js";
 import { birthDay } from "../data/birthDay.js";
 import { destinyNum } from "../data/destinyNum.js";
+import { lifePathNum } from "../data/lifePathNum.js";
 import { mature } from "../data/mature.js";
 import { personNum } from "../data/personNum.js";
 import { soulResults } from "../data/soulUrge.js";
@@ -114,9 +115,9 @@ const dayMonthReduce = (n) => {
 }
 
 const masterKarmic = (num) => {
-    if ([13, 14, 15, 16, 19 ].includes(num)) {
+    if ([13, 14, 16, 19, 49, 58, 59].includes(num)) {
         return "(Karmic Debt)"
-    } else if ([11, 22].includes(num)) {
+    } else if ([11, 22, 33, 44].includes(num)) {
         return "(Master Number)"
     }
     return ""
@@ -133,6 +134,7 @@ const allResults = () => {
     const lp = lifePath();
     const dn = nameNumbers();
     const mat = maturityNumber(lp, dn);
+    const life = getResults(lifePathNum, lp.major, lp.minor)
     const birthDate = getResults(birthDay, lp.dayMajor, lp.dayMajor)
     const destiny = getResults(destinyNum, dn.major, dn.minor);
     const soul = getResults(soulResults, dn.soulU);
@@ -142,21 +144,23 @@ const allResults = () => {
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
-        <h3><span>Life Path Number: </span>${lp.major}/${lp.minor}</h3>
-        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor} ${karmic}`}</h3>
-        <h4>Keywords: ${birthDate?.keywords}</h4>
+        <h3><span>Life Path Number: </span>${lp.major}/${lp.minor} ${karmic} - ${life?.title}</h3>
+        <h4>Keywords: ${life?.keywords.join(" | ")}</h4>
+        <p>${life?.content}</p>
+        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor} ${karmic}`} - ${birthDate?.title}</h3>
+        <h4>Keywords: ${birthDate?.keywords.join(" | ")}</h4>
         <p>${birthDate?.content}</p>
-        <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`}</h3>
-        <h4>Keywords: ${destiny?.keywords}</h4>
+        <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`} - ${destiny?.title}</h3>
+        <h4>Keywords: ${destiny?.keywords.join(" | ")}</h4>
         <p>${destiny?.content}</p>
         <h3><span>Soul Urge Number: </span>${dn.soulU} - ${soul?.title}</h3>
-        <h4>${soul?.keywords || ""}</h4>
+        <h4>${soul?.keywords.join(" | ") || ""}</h4>
         <p>${soul?.content || "You have no vowels in your name."}</p>
-        <h3><span>Personality Number: </span>${dn.perso}</h3>
-        <h4>${person.keywords}</h4>
+        <h3><span>Personality Number: </span>${dn.perso} - ${person?.title}</h3>
+        <h4>${person.keywords.join(" | ")}</h4>
         <p>${person?.content}</p>
-        <h3><span>Maturity Number: </span>${mat}</h3>
-        <h4>${maturity.keywords}</h4>
+        <h3><span>Maturity Number: </span>${mat} - ${maturity?.title}</h3>
+        <h4>${maturity.keywords.join(" | ")}</h4>
         <p>${maturity?.content}</p>
     `
 }

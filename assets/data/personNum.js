@@ -2,7 +2,7 @@ export const personNum = [
     {
         num: 1,
         title: "The Leader / Pioneer",
-        keywords: "Leadership | Innovation | Independence", 
+        keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as confident, 
@@ -11,7 +11,7 @@ export const personNum = [
     {
         num: 2,
         title: "The Connector / Diplomat", 
-        keywords: "Collaboration | Balance | Intuitive", 
+        keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as warm, approachable, 
@@ -20,7 +20,7 @@ export const personNum = [
     {
         num: 3, 
         title: "The Creator / Communicator", 
-        keywords: "Communication | Creativity | Optimistic", 
+        keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as charismatic, 
@@ -29,7 +29,7 @@ export const personNum = [
     {
         num: 4,
         title: "The Builder / Organiser",
-        keywords: "Planning | Structured | Methodical", 
+        keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as dependable, grounded, 
@@ -38,7 +38,7 @@ export const personNum = [
     {
         num: 5, 
         title: "The Explorer / Catalyst",
-        keywords: "Adaptable | Curious | Adventurer", 
+        keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as energetic, magnetic, 
@@ -47,7 +47,7 @@ export const personNum = [
     {
         num: 6, 
         title: "The Nurturer / Steward", 
-        keywords: "Home | Aesthetics | Healing", 
+        keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Personality number is your outer "shell" or 
         social filter, how others perceive you before they know your 
         deeper self. You are seen immediately as welcoming, protective, 
@@ -56,7 +56,7 @@ export const personNum = [
     {
         num: 7, 
         title: "The Seeker / Strategist", 
-        keywords: "Wisdom | Researcher | Introspective", 
+        keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as thoughtful, observant, 
@@ -65,7 +65,7 @@ export const personNum = [
     {
         num: 8, 
         title: "The Manifestor / Executive",
-        keywords: "Abundance | Authoritive | Leadership", 
+        keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as strong, capable, 
@@ -74,7 +74,7 @@ export const personNum = [
     {
         num: 9, 
         title: "The Humanitarian / Sage", 
-        keywords: "Adaptive | Influential | Compassionate", 
+        keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as wise, open-minded, generous, 
@@ -83,7 +83,7 @@ export const personNum = [
     {
         num: 11, 
         title: "The Inituitive Illuminator", 
-        keywords: "Spiritual Insight | Influential | Perceptive", 
+        keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as perceptive, sensitive, 
@@ -92,7 +92,7 @@ export const personNum = [
     {
         num: 22, 
         title: "The Master Builder", 
-        keywords: "Practical Visionary | Manifestation | Master Architect",
+        keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as extraordinarily capable, steady, 
@@ -101,7 +101,7 @@ export const personNum = [
     {
         num: 33, 
         title: "The Master Teacher / Healer",
-        keywords: "Creative Healing | Unconditional Love | Wise Mentor",  
+        keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Personality number is your outer "shell" or 
         social filter—how others perceive you before they know your 
         deeper self. You are seen immediately as deeply compassionate, comforting, 
