@@ -30,14 +30,20 @@ mon.addEventListener("input", () => {
 
 const lifePath = () => {
     const dayTotal = dayMonthReduce(day.value)// reduces day except 11, 22
-    console.log("daytotal:", dayTotal)
     const dayTot = Array.from(day.value, Number).reduce((acc, num) => acc + num, 0); // used for the ternary operator in allResult()
-    console.log("total:", dayTot)
     const monthTotal = dayMonthReduce(mon.value); // reduces month except 11, 22
     const yearTotal = Array.from(year.value, Number).reduce((acc, num) => acc + num, 0);
-    console.log("Year:", yearTotal)
+    const monSingle = reduceMinor(mon.value)
+    const yearSingle = reduceMinor(year.value)
     const total = dayTotal + monthTotal + yearTotal;
-    return {dayMajor: Number(day.value), dayMinor: dayTot, major: total, minor: reduceMinor(total)}
+        return {
+        dayMajor: Number(day.value), 
+        dayMinor: dayTot, 
+        major: total, 
+        minor: reduceMinor(total),
+        month: monSingle,
+        year: yearSingle
+    }
 }
 
 const nameNumbers = () => {
@@ -88,6 +94,23 @@ const maturityNumber = (lp, dn) => {
     return reduceMajor(total);
 }
 
+const pinnacleNumber = (day, mon, year) => {
+    const calOne = day + mon;
+    const one = Array.from(String(calOne), Number).reduce((a, b) => a + b, 0);
+    const calTwo = day + year;
+    const two = Array.from(String(calTwo), Number).reduce((a, b) => a + b, 0);
+    const three = Array.from(String(one + two), Number).reduce((a, b) => a + b, 0);
+    const four = mon + year
+    return [one, two, three, four]
+}
+
+const challengeNumber = (day, mon, year) => {
+    const one = Math.abs(day - mon);
+    const two = Math.abs(day - year);
+    const three = Math.abs(one - two);
+    const four = Math.abs(mon - year);
+    return [one, two, three, four]
+}
 
 const reduceMinor = (n) => {
     while (n > 9) {
@@ -140,14 +163,19 @@ const allResults = () => {
     const soul = getResults(soulResults, dn.soulU);
     const person = getResults(personNum, dn.perso);
     const maturity = getResults(mature, mat);
-    const karmic = masterKarmic(lp.dayMajor);
+    const pinnacle = pinnacleNumber(lp.dayMinor, lp.month, lp.year)
+    const challenge = challengeNumber(lp.dayMinor, lp.month, lp.year)
+    console.log("Pinnacles:", pinnacle)
+    console.log("Challenge:", challenge)
+    const dayKarmic = masterKarmic(lp.dayMajor);
+    const lifeKarmic = masterKarmic(lp.major);
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
-        <h3><span>Life Path Number: </span>${lp.major}/${lp.minor} ${karmic} - ${life?.title}</h3>
+        <h3><span>Life Path Number: </span>${lp.major}/${lp.minor} ${lifeKarmic} - ${life?.title}</h3>
         <h4>Keywords: ${life?.keywords.join(" | ")}</h4>
         <p>${life?.content}</p>
-        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor} ${karmic}`} - ${birthDate?.title}</h3>
+        <h3><span>Birthday Number: </span>${lp.dayMajor === lp.dayMinor ? lp.dayMinor : `${lp.dayMajor}/${lp.dayMinor} ${dayKarmic}`} - ${birthDate?.title}</h3>
         <h4>Keywords: ${birthDate?.keywords.join(" | ")}</h4>
         <p>${birthDate?.content}</p>
         <h3><span>Destiny Number: </span>${dn.major === dn.minor ? dn.minor : `${dn.major}/${dn.minor}`} - ${destiny?.title}</h3>
