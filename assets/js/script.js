@@ -28,6 +28,29 @@ mon.addEventListener("input", () => {
     if (mon.value.length === mon.maxLength) year.focus();
 }) // moves to year input if max length is reached
 
+const age = () => {
+    const today = new Date();
+    
+    let age = today.getFullYear() - Number(year.value);
+
+    const birthdayPassed = 
+        today.getMonth() + 1 > Number(mon.value) ||
+        // If the month has passed then 1st condition is true
+        (
+            today.getMonth() + 1 === Number(mon.value) &&
+            today.getDate() >= Number(day.value)
+            // If the month is equal and the date is equal or passed 
+            // then this condition is true
+        )
+
+    if (!birthdayPassed) {
+        age--
+        // if birthday not passed reduce age.
+    }
+
+    return age
+}
+
 const lifePath = () => {
     const dayTotal = dayMonthReduce(day.value)// reduces day except 11, 22
     const dayTot = Array.from(day.value, Number).reduce((acc, num) => acc + num, 0); // used for the ternary operator in allResult()
@@ -94,14 +117,32 @@ const maturityNumber = (lp, dn) => {
     return reduceMajor(total);
 }
 
+const getSpecialNumber = (num) => {
+    const karmic = [13, 14, 16, 19, 49, 58, 59];
+    const master = [11, 22, 33, 44];
+
+    if (karmic.includes(num)) {
+        return {value: num, message: "(Karmic Debt)"}
+    } else if (master.includes(num)) {
+        return {value: num, message: "(Master Number)"}
+    } else {
+        return null
+    }
+}
+
 const pinnacleNumber = (day, mon, year) => {
-    const calOne = day + mon;
-    const one = Array.from(String(calOne), Number).reduce((a, b) => a + b, 0);
-    const calTwo = day + year;
-    const two = Array.from(String(calTwo), Number).reduce((a, b) => a + b, 0);
-    const three = Array.from(String(one + two), Number).reduce((a, b) => a + b, 0);
-    const four = mon + year
-    return [one, two, three, four]
+    const pinOne = reduceMinor(day + mon);
+    const pinTwo = reduceMinor(day + year);
+    const pinThree = reduceMinor(pinOne + pinTwo);
+    const pinFour = reduceMinor(mon + year)
+    const specOne = getSpecialNumber(day + mon)
+    const specTwo = getSpecialNumber(day + year)
+    const specThree = getSpecialNumber(pinOne + pinTwo)
+    const specFour = getSpecialNumber(day + mon)
+    return {
+        one: pinOne, two: pinTwo, three: pinThree, four: pinFour,
+        oneMK: specOne, twoMK: specTwo, threeMK: specThree, fourMK: specFour
+    }
 }
 
 const challengeNumber = (day, mon, year) => {
@@ -113,6 +154,8 @@ const challengeNumber = (day, mon, year) => {
 }
 
 const reduceMinor = (n) => {
+    n = Number(n); 
+    
     while (n > 9) {
         n = Array.from(String(n), Number)
         .reduce((acc, num) => acc + num, 0);
@@ -154,6 +197,7 @@ const getResults = (data, major, minor) => {
 }
 
 const allResults = () => {
+    const ages = age()
     const lp = lifePath();
     const dn = nameNumbers();
     const mat = maturityNumber(lp, dn);
@@ -162,7 +206,7 @@ const allResults = () => {
     const destiny = getResults(destinyNum, dn.major, dn.minor);
     const soul = getResults(soulResults, dn.soulU);
     const person = getResults(personNum, dn.perso);
-    const maturity = getResults(mature, mat);
+    const maturity = getResults(mature, mat);   
     const pinnacle = pinnacleNumber(lp.dayMinor, lp.month, lp.year)
     const challenge = challengeNumber(lp.dayMinor, lp.month, lp.year)
     console.log("Pinnacles:", pinnacle)
@@ -172,6 +216,7 @@ const allResults = () => {
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
+        <h3>Age: ${ages}</h3>
         <h3><span>Life Path Number: </span>${lp.major}/${lp.minor} ${lifeKarmic} - ${life?.title}</h3>
         <h4>Keywords: ${life?.keywords.join(" | ")}</h4>
         <p>${life?.content}</p>
@@ -190,6 +235,11 @@ const allResults = () => {
         <h3><span>Maturity Number: </span>${mat} - ${maturity?.title}</h3>
         <h4>${maturity.keywords.join(" | ")}</h4>
         <p>${maturity?.content}</p>
+        <h3><span>Pinnacle Numbers: </span></h3>
+        <h4>Pinnacle 1 <i>(from Birth  to ${36 - lp.minor})</i>: ${pinnacle?.oneMK?.value ? `${pinnacle?.oneMK?.value} / ` : ""}${pinnacle?.one} ${pinnacle?.oneMK?.message ? `${pinnacle?.oneMK?.message}` : ""}</h4>
+        <h4>Pinnacle 2 <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i>: ${pinnacle?.twoMK?.value ? `${pinnacle?.twoMK?.value} / ` : ""}${pinnacle?.two} ${pinnacle?.twoMK?.message ? `${pinnacle?.twoMK?.message}` : ""}</h4>
+        <h4>Pinnacle 3 <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i>: ${pinnacle?.threeMK?.value ? `${pinnacle?.threeMK?.value} / ` : ""}${pinnacle?.three} ${pinnacle?.threeMK?.message ? `${pinnacle?.threeMK?.message}` : ""}</h4>
+        <h4>Pinnacle 4 <i>(from ${36 - lp.minor + 18} onward)</i>: ${pinnacle?.fourMK?.value ? `${pinnacle?.fourMK?.value} / ` : ""}${pinnacle?.four} ${pinnacle?.fourMK?.message ? `${pinnacle?.fourMK?.message}` : ""}</h4>
     `
 }
 
