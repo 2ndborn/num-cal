@@ -130,6 +130,33 @@ const getSpecialNumber = (num) => {
     }
 }
 
+const getMonth = (mon) => {
+    const month = Number(mon)
+
+    const months = ["January", "February", "March", "April",
+    "May", "June", "July", "August",
+    "September", "October", "November", "December"] 
+
+    return months[month -1]
+}
+
+const getSuffix = (day) => {
+    day = Number(day)
+    const first = [1, 21, 31];
+    const second = [2, 22];
+    const third = [3, 23];
+
+    if (first.includes(day)) {
+        return "st"
+    } else if (second.includes(day)) {
+        return "nd"
+    } else if (third.includes(day)) {
+        return "rd"
+    } else {
+        return "th"
+    }
+}
+
 const pinnacleNumber = (day, mon, year) => {
     const pinOne = reduceMinor(day + mon);
     const pinTwo = reduceMinor(day + year);
@@ -211,11 +238,13 @@ const allResults = () => {
     const challenge = challengeNumber(lp.dayMinor, lp.month, lp.year)
     console.log("Pinnacles:", pinnacle)
     console.log("Challenge:", challenge)
-    const dayKarmic = masterKarmic(lp.dayMajor);
+    const dayKarmic = masterKarmic(lp.dayMajor); // Remember to change this....
     const lifeKarmic = masterKarmic(lp.major);
     console.log("Result:", soul)
     console.log("soul:", dn.soulU)
     results.innerHTML = `
+        <h3>Name: ${nameInput.value}</h3>
+        <h3>DoB: ${day.value}${getSuffix(day.value)} ${getMonth(mon.value)} ${year.value}</h3>
         <h3>Age: ${ages}</h3>
         <h3><span>Life Path Number: </span>${lp.major}/${lp.minor} ${lifeKarmic} - ${life?.title}</h3>
         <h4>Keywords: ${life?.keywords.join(" | ")}</h4>
@@ -236,10 +265,13 @@ const allResults = () => {
         <h4>${maturity.keywords.join(" | ")}</h4>
         <p>${maturity?.content}</p>
         <h3><span>Pinnacle Numbers: </span></h3>
-        <h4>Pinnacle 1 <i>(from Birth  to ${36 - lp.minor})</i>: ${pinnacle?.oneMK?.value ? `${pinnacle?.oneMK?.value} / ` : ""}${pinnacle?.one} ${pinnacle?.oneMK?.message ? `${pinnacle?.oneMK?.message}` : ""}</h4>
-        <h4>Pinnacle 2 <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i>: ${pinnacle?.twoMK?.value ? `${pinnacle?.twoMK?.value} / ` : ""}${pinnacle?.two} ${pinnacle?.twoMK?.message ? `${pinnacle?.twoMK?.message}` : ""}</h4>
-        <h4>Pinnacle 3 <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i>: ${pinnacle?.threeMK?.value ? `${pinnacle?.threeMK?.value} / ` : ""}${pinnacle?.three} ${pinnacle?.threeMK?.message ? `${pinnacle?.threeMK?.message}` : ""}</h4>
-        <h4>Pinnacle 4 <i>(from ${36 - lp.minor + 18} onward)</i>: ${pinnacle?.fourMK?.value ? `${pinnacle?.fourMK?.value} / ` : ""}${pinnacle?.four} ${pinnacle?.fourMK?.message ? `${pinnacle?.fourMK?.message}` : ""}</h4>
+        <p>Pinnacle numbers represent the four major seasons or "climates" of your 
+        life, showing the overarching themes, external opportunities, and kinds of 
+        growth you encounter during each phase.</p>
+        <h4>1st Pinnacle <i>(from Birth  to ${36 - lp.minor})</i> - ${pinnacle?.oneMK?.value ? `${pinnacle?.oneMK?.value} / ` : ""}${pinnacle?.one} ${pinnacle?.oneMK?.message ? `${pinnacle?.oneMK?.message}` : ""}:</h4>
+        <h4>2nd Pinnacle <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${pinnacle?.twoMK?.value ? `${pinnacle?.twoMK?.value} / ` : ""}${pinnacle?.two} ${pinnacle?.twoMK?.message ? `${pinnacle?.twoMK?.message}` : ""}:</h4>
+        <h4>3rd Pinnacle <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${pinnacle?.threeMK?.value ? `${pinnacle?.threeMK?.value} / ` : ""}${pinnacle?.three} ${pinnacle?.threeMK?.message ? `${pinnacle?.threeMK?.message}` : ""}:</h4>
+        <h4>4th Pinnacle <i>(from ${36 - lp.minor + 18} onward)</i> - ${pinnacle?.fourMK?.value ? `${pinnacle?.fourMK?.value} / ` : ""}${pinnacle?.four} ${pinnacle?.fourMK?.message ? `${pinnacle?.fourMK?.message}` : ""}:</h4>
     `
 }
 
