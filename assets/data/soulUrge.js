@@ -7,8 +7,9 @@ export const soulResults = [
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by independence, autonomy, personal achievement, and doing things 
-        your own way.`
+        by a deep hunger for autonomy, self-determination, and proving what you can build 
+        on your own merit. You feel drained when forced to follow rigid rules or take a 
+        back seat.`
     },
     {
         num: 2, 
@@ -18,8 +19,8 @@ export const soulResults = [
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by emotional connection, peace, mutual support, and feeling truly 
-        understood.`
+        by emotional intimacy, peace, mutual trust, and feeling deeply connected to others.
+         Harsh conflict or cold environments quickly deplete your energy.`
     },
     {
         num: 3, 
@@ -29,8 +30,8 @@ export const soulResults = [
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are 
-        fueled by self-expression, joy, social interaction, and creative 
-        freedom.`
+        fueled by joy, creative self-expression, social connection, and playful curiosity. 
+        You wilt in overly serious, restrictive, or isolated routines.`
     },
     {
         num: 4,
@@ -40,7 +41,8 @@ export const soulResults = [
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by order, security, loyalty, and tangible, step-by-step progress.`
+        by stability, predictability, loyalty, and tangible progress. Knowing your foundations, 
+        financial, domestic, and are secure gives you deep peace.`
     },
     {
         num: 5,
@@ -50,7 +52,8 @@ export const soulResults = [
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by freedom, variety, curiosity, adventure, and new experiences.`
+        by personal freedom, variety, sensory experience, and constant learning. Routine 
+        cages make you restless; open doors keep you alive.`
     },
     {
         num: 6, 
@@ -60,7 +63,8 @@ export const soulResults = [
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by love, domestic stability, beauty, and being needed and appreciated.`
+        by love, domestic harmony, beauty, and being genuinely useful to family or community. 
+        You feel most fulfilled when the people around you are thriving.`
     },
     {
         num: 7,
@@ -70,7 +74,8 @@ export const soulResults = [
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by quiet reflection, knowledge, inner truth, and meaningful solitude.`
+        by truth, quiet contemplation, intellectual depth, and meaningful solitude. 
+        Small talk and surface-level living leave you mentally exhausted.`
     },
     {
         num: 8, 
@@ -80,7 +85,8 @@ export const soulResults = [
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by authority, abundance, influence, and overcoming big challenges.`
+        by mastery, financial security, influence, and achieving significant, measurable 
+        milestones. You are driven to build something substantial that lasts.`
     },
     {
         num: 9, 
@@ -90,8 +96,8 @@ export const soulResults = [
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by compassion, big-picture purpose, generosity, and making a 
-        difference.`
+        by compassion, wisdom, generosity, and making a meaningful mark on the world. Petty 
+        competition bores you; uplifting others fulfills you.`
     },
     {
         num: 11, 
@@ -101,8 +107,9 @@ export const soulResults = [
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by spiritual truth, deep intuition, and inspiring others emotionally 
-        or creatively.`
+        by visionary communication, intuitive counselling, or creative catalyst. You 
+        excel at picking up subtle insights and inspiring others to see deeper 
+        possibilities.`
     },
     {
         num: 22, 
@@ -112,8 +119,8 @@ export const soulResults = [
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by legacy-building, practical mastery, and achieving large-scale 
-        impact.`
+        by legacy, tangible mastery, and turning ambitious ideals into concrete reality 
+        that improves how people live or work.`
     },
     {
         num: 33,
@@ -123,7 +130,7 @@ export const soulResults = [
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
         and what genuinely fulfills you beneath the surface. You are fueled 
-        by heartfelt service, emotional healing, and nurturing the growth of 
-        others.`
+        by unconditional love, service to humanity, and helping others heal or step into their 
+        highest potential.`
     },
 ];

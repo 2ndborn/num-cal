@@ -6,9 +6,9 @@ export const destinyNum = [
         title: "The Leader / Pioneer",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to lead, innovate, start new ventures, and stand on your 
-        own two feet.`
+        and what you are built to do or accomplish in the world. You are a natural entrepreneur, 
+        inventor, or independent leader. You excel when given a blank canvas to launch 
+        projects, set direction, and solve problems without micromanagement.`
     },
     {
         num: 2,
@@ -17,9 +17,9 @@ export const destinyNum = [
         title: "The Connector / Diplomat", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to collaborate, mediate, counsel, and bring harmony to 
-        partnerships or teams.`
+        and what you are built to do or accomplish in the world. You are a master mediator, 
+        counselor, partner, and behind-the-scenes strategist. You thrive in roles requiring 
+        emotional intelligence, negotiation, teamwork, and refining other people's ideas.`
     },
     {
         num: 3, 
@@ -28,9 +28,9 @@ export const destinyNum = [
         title: "The Creator / Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to communicate, entertain, inspire, write, speak, or uplift 
-        others creatively.`
+        and what you are built to do or accomplish in the world. You are a natural storyteller, 
+        performer, writer, marketer, or motivator. You excel at translating complex ideas 
+        into engaging, uplifting communication that energizes groups.`
     },
     {
         num: 4,
@@ -39,9 +39,9 @@ export const destinyNum = [
         title: "The Builder / Organiser",
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to organize, plan, manage systems, and create lasting, 
-        reliable results.`
+        and what you are built to do or accomplish in the world. You are a master organizer, 
+        project manager, engineer, or operations leader. You excel at turning chaotic ideas into 
+        reliable, step-by-step systems that stand the test of time.`
     },
     {
         num: 5, 
@@ -50,9 +50,9 @@ export const destinyNum = [
         title: "The Explorer / Catalyst",
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to adapt, promote, travel, pivot quickly, and thrive in 
-        dynamic environments.`
+        and what you are built to do or accomplish in the world. You are a natural communicator, 
+        promoter, traveler, crisis-solver, or change agent. You thrive in fast-moving environments 
+        that demand versatility, quick thinking, and public engagement.`
     },
     {
         num: 6, 
@@ -61,9 +61,9 @@ export const destinyNum = [
         title: "The Nurturer / Steward", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to care for, teach, heal, design, or create harmony in 
-        families and communities.`
+        and what you are built to do or accomplish in the world. You are a natural healer, 
+        teacher, designer, advisor, or community pillar. You excel at improving people's 
+        wellbeing, creating aesthetic harmony, and taking responsibility for others' growth.`
     },
     {
         num: 7, 
@@ -72,9 +72,9 @@ export const destinyNum = [
         title: "The Seeker / Strategist", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to research, analyze, specialize, uncover truth, and share 
-        deep wisdom.`
+        and what you are built to do or accomplish in the world. You are a deep researcher, 
+        strategist, specialist, writer, or spiritual/technical thinker. You excel at uncovering 
+        hidden patterns, mastering niche subjects, and offering piercing insight.`
     },
     {
         num: 8, 
@@ -83,9 +83,9 @@ export const destinyNum = [
         title: "The Manifestor / Executive",
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to manage, lead organizations, master finances, and manifest 
-        large-scale success.`
+        and what you are built to do or accomplish in the world. You are a natural leader, 
+        business builder, financial strategist, or institutional manager. You excel at scaling 
+        ventures, handling high-stakes pressure, and turning vision into material success.`
     },
     {
         num: 9, 
@@ -94,9 +94,9 @@ export const destinyNum = [
         title: "The Humanitarian / Sage", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to inspire, teach, serve on a broad scale, and elevate the 
-        wider community.`
+        and what you are built to do or accomplish in the world. You are a big-picture teacher, 
+        philanthropist, artist, counselor, or public advocate. You excel when your work serves 
+        a broader human cause rather than narrow self-interest.`
     },
     {
         num: 11, 
@@ -105,9 +105,9 @@ export const destinyNum = [
         title: "The Inituitive Illuminator", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to inspire, counsel, and bridge intuitive insight with 
-        everyday understanding.`
+        and what you are built to do or accomplish in the world. You are a visionary 
+        communicator, intuitive counselor, or creative catalyst. You excel at picking 
+        up subtle insights and inspiring others to see deeper possibilities.`
     },
     {
         num: 22, 
@@ -116,9 +116,9 @@ export const destinyNum = [
         title: "The Master Builder", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to turn ambitious, visionary ideas into real-world institutions 
-        or lasting structures.`
+        and what you are built to do or accomplish in the world. You are an architect of 
+        large-scale systems, businesses, or movements. You excel at blending intuitive 
+        vision (11) with practical discipline (4) to build things of lasting public value.`
     },
     {
         num: 33, 
@@ -127,8 +127,8 @@ export const destinyNum = [
         title: "The Master Teacher / Healer",
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Destiny number is your natural abilities, potential, 
-        and what you are built to do or accomplish in the world. You are 
-        built to uplift, heal, mentor, and model unconditional compassion 
-        on a wide scale.`
+        and what you are built to do or accomplish in the world. You are a compassionate mentor,
+        healer, or creative guide. You excel at uplifting groups through wisdom, emotional 
+        warmth, and selfless leadership.`
     }
 ];

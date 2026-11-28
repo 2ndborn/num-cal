@@ -6,9 +6,10 @@ export const personNum = [
         title: "The Leader / Pioneer",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as confident, 
-        self-reliant, direct, and decisive.`
+        social filter how others perceive you before they know your 
+        deeper self. You are seen as confident, sharp, decisive, and self-contained. People 
+        often assume you have everything under control, even when you are still figuring 
+        it out behind the scenes.`
     },
     {
         num: 2,
@@ -17,9 +18,9 @@ export const personNum = [
         title: "The Connector / Diplomat", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as warm, approachable, 
-        gentle, and a great listener.`
+        social filter how others perceive you before they know your 
+        deeper self. You are seen as gentle, attentive, approachable, and soothing. Strangers 
+        naturally open up to you because you project safety and non-judgment.`
     },
     {
         num: 3, 
@@ -28,9 +29,10 @@ export const personNum = [
         title: "The Creator / Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as charismatic, 
-        expressive, witty, and optimistic.`
+        social filter how others perceive you before they know your deeper self. You are 
+        seen as Magnetic, witty, expressive, and youthful. People see you as the spark in 
+        the room, though sometimes they underestimate your deeper side. immediately as 
+        charismatic, expressive, witty, and optimistic.`
     },
     {
         num: 4,
@@ -39,9 +41,9 @@ export const personNum = [
         title: "The Builder / Organiser",
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as dependable, grounded, 
-        practical, and trustworthy.`
+        social filter how others perceive you before they know your 
+        deeper self. You are seen as grounded, no-nonsense, dependable, and rock-solid. 
+        People immediately trust your word and turn to you when things need fixing.`
     },
     {
         num: 5, 
@@ -50,9 +52,9 @@ export const personNum = [
         title: "The Explorer / Catalyst",
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as energetic, magnetic, 
-        adaptable, and adventurous.`
+        social filter, how others perceive you before they know your deeper self. You 
+        are seen as dynamic, intriguing, adaptable, and adventurous. You come across as 
+        someone with stories to tell and zero fear of change.`
     },
     {
         num: 6, 
@@ -61,20 +63,20 @@ export const personNum = [
         title: "The Nurturer / Steward", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Personality number is your outer "shell" or 
-        social filter, how others perceive you before they know your 
-        deeper self. You are seen immediately as welcoming, protective, 
-        responsible, and warm-hearted.`
+        social filter, how others perceive you before they know your deeper self. You are 
+        seen as warm, protective, refined, and trustworthy. People often treat you like an 
+        anchor, mentor, or parental figure right away.`
     },
     {
         num: 7, 
-        reduced: 5,
+        reduced: 7,
         type: "core",
         title: "The Seeker / Strategist", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as thoughtful, observant, 
-        refined, and slightly mysterious.`
+        social filter, how others perceive you before they know your deeper self. You are seen 
+        as poised, observant, private, and slightly enigmatic. People sense you are constantly 
+        analyzing the room and rarely miss a detail.`
     },
     {
         num: 8, 
@@ -83,9 +85,9 @@ export const personNum = [
         title: "The Manifestor / Executive",
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as strong, capable, 
-        composed, and authoritative.`
+        social filter, how others perceive you before they know your deeper self. You are seen 
+        as authoritative, capable, resilient, and composed. People instinctively defer to your 
+        judgment and assume you hold leadership status.`
     },
     {
         num: 9, 
@@ -93,10 +95,10 @@ export const personNum = [
         type: "core",
         title: "The Humanitarian / Sage", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
-        content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as wise, open-minded, generous, 
-        and dignified.`
+        content: `The Personality number is your outer "shell" or social filter, how others 
+        perceive you before they know your deeper self. You are seen as dignified, broad-minded, 
+        charismatic, and worldly. People see you as someone with perspective, empathy, and a 
+        larger than life presence.`
     },
     {
         num: 11,
@@ -104,10 +106,10 @@ export const personNum = [
         type: "master", 
         title: "The Inituitive Illuminator", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
-        content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as perceptive, sensitive, 
-        intriguing, and visionary.`
+        content: `The Personality number is your outer "shell" or social filter, how others 
+        perceive you before they know your deeper self. You are seen as electric, perceptive, 
+        sensitive, and intriguing. People often feel you "see right through them" upon first 
+        meeting.immediately as perceptive, sensitive, intriguing, and visionary.`
     },
     {
         num: 22,
@@ -115,10 +117,10 @@ export const personNum = [
         type: "master", 
         title: "The Master Builder", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
-        content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as extraordinarily capable, steady, 
-        and focused on big goals.`
+        content: `The Personality number is your outer "shell" or social filter, how others 
+        perceive you before they know your deeper self. You are seen as Formidable, focused, 
+        steady, and visionary. You project the quiet weight of someone built for major 
+        undertakings.`
     },
     {
         num: 33,
@@ -126,9 +128,9 @@ export const personNum = [
         type: "master", 
         title: "The Master Teacher / Healer",
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
-        content: `The Personality number is your outer "shell" or 
-        social filter—how others perceive you before they know your 
-        deeper self. You are seen immediately as deeply compassionate, comforting, 
-        and wise beyond their years.`
+        content: `The Personality number is your outer "shell" or social filter, how others 
+        perceive you before they know your deeper self. You are seen as Radiantly warm, 
+        comforting, wise, and approachable. People feel immediately safe, heard, and encouraged 
+        in your presence.`
     }
 ];
