@@ -1,6 +1,8 @@
 export const lifePathNum = [
     {
         num: 1,
+        reduced: 1,
+        type: "core",
         title: "The Trailblazer",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -11,6 +13,8 @@ export const lifePathNum = [
     },
     {
         num: 2,
+        reduced: 2,
+        type: "core",
         title: "The Peacemaker", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -21,6 +25,8 @@ export const lifePathNum = [
     },
     {
         num: 3, 
+        reduced: 3,
+        type: "core",
         title: "The Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -31,6 +37,8 @@ export const lifePathNum = [
     },
     {
         num: 4,
+        reduced: 4,
+        type: "core",
         title: "The Builder",
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -41,6 +49,8 @@ export const lifePathNum = [
     },
     {
         num: 5, 
+        reduced: 5,
+        type: "core",
         title: "The Explorer",
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -51,6 +61,8 @@ export const lifePathNum = [
     },
     {
         num: 6, 
+        reduced: 6,
+        type: "core",
         title: "The Nurturer", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -60,6 +72,8 @@ export const lifePathNum = [
     },
     {
         num: 7, 
+        reduced: 7,
+        type: "core",
         title: "The Seeker", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -69,6 +83,8 @@ export const lifePathNum = [
     },
     {
         num: 8, 
+        reduced: 8,
+        type: "core",
         title: "The Manifestor",
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -78,6 +94,8 @@ export const lifePathNum = [
     },
     {
         num: 9, 
+        reduced: 9,
+        type: "core",
         title: "The Humanitarian", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -88,6 +106,8 @@ export const lifePathNum = [
     },
     {
         num: 10, 
+        reduced: 1,
+        type: "core",
         title: "The Pure Pioneer", 
         keywords: ["Illumination", "Intuition", "Inspiration", "Sensitivity", "Insight"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -97,7 +117,9 @@ export const lifePathNum = [
         of standing alone.`
     },
     {
-        num: 11, 
+        num: 11,
+        reduced: 2,
+        type: "master", 
         title: "The Intuitive Visionary", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -108,6 +130,8 @@ export const lifePathNum = [
     },
     {
         num: 12, 
+        reduced: 3,
+        type: "core",
         title: "The Collaborative Creator", 
         keywords: ["Collaborative Creativity", "Charm", "Tact", "Self-Expression"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -117,6 +141,8 @@ export const lifePathNum = [
     },
     {
         num: 13, 
+        reduced: 4,
+        type: "karmic",
         title: "The Disciplined Craftsman", 
         keywords: ["Focus", "Craftsmanship", "Perseverance", "Transformation"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -126,6 +152,8 @@ export const lifePathNum = [
     },
     {
         num: 14, 
+        reduced: 5,
+        type: "karmic",
         title: "The Grounded Maverick", 
         keywords: ["Balanced Freedom", "Self-Mastery", "Versatility", "Moderation"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -135,6 +163,8 @@ export const lifePathNum = [
     },
     {
         num: 15, 
+        reduced: 6,
+        type: "core",
         title: "The Magnetic Caretaker", 
         keywords: ["Magnetic Care", "Domestic Harmony", "Adaptability", "Charisma"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -144,6 +174,8 @@ export const lifePathNum = [
     },
     {
         num: 16, 
+        reduced: 7,
+        type: "karmic",
         title: "The Awakened Seeker", 
         keywords: ["Spiritual Awakening", "Humility", "Renewal", "Inner Truth"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -153,6 +185,8 @@ export const lifePathNum = [
     },
     {
         num: 17, 
+        reduced: 8,
+        type: "core",
         title: "The Strategic Executive", 
         keywords: ["Strategic Power", "Insightful Leadership", "Resilience", "Authority"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -162,6 +196,8 @@ export const lifePathNum = [
     },
     {
         num: 18, 
+        reduced: 9,
+        type: "core",
         title: " he Purpose-Driven Leader", 
         keywords: ["Purposeful Power", "Humanitarian Leadership", "Integrity", "Vision"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -171,6 +207,8 @@ export const lifePathNum = [
     },
     {
         num: 19, 
+        reduced: 1,
+        type: "karmic",
         title: "The Humble Trailblazer", 
         keywords: ["Humble Leadership", "Interdependence", "Resilience", "Self-Mastery"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -180,6 +218,8 @@ export const lifePathNum = [
     },
     {
         num: 20, 
+        reduced: 2,
+        type: "core",
         title: "The Empathic Diplomat", 
         keywords: ["Humble Leadership", "Interdependence", "Resilience", "Self-Mastery"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -189,6 +229,8 @@ export const lifePathNum = [
     },
     {
         num: 21, 
+        reduced: 3,
+        type: "core",
         title: "The Charismatic Voice", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -198,6 +240,8 @@ export const lifePathNum = [
     },
     {
         num: 22, 
+        reduced: 4,
+        type: "master",
         title: "The Master Builder", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -208,6 +252,8 @@ export const lifePathNum = [
     },
     {
         num: 23, 
+        reduced: 5,
+        type: "core",
         title: "The Social Catalyst", 
         keywords: ["Persuasion", "Social Agility", "Curiosity", "Quick Wit"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -217,6 +263,8 @@ export const lifePathNum = [
     },
     {
         num: 24, 
+        reduced: 6,
+        type: "core",
         title: "The Devoted Steward", 
         keywords: ["Dependable Care", "Practical Nurturing", "Organization", "Loyalty"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -226,6 +274,8 @@ export const lifePathNum = [
     },
     {
         num: 25, 
+        reduced: 7,
+        type: "core",
         title: "The Experiential Philosopher", 
         keywords: ["Experiential Wisdom", "Discerning Intuition", "Depth", "Observation"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -236,6 +286,8 @@ export const lifePathNum = [
     },
     {
         num: 26, 
+        reduced: 8,
+        type: "core",
         title: "The Benevolent Executive", 
         keywords: ["Ethical Abundance", "Protective Leadership", "Stewardship", "Partnership"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -246,6 +298,8 @@ export const lifePathNum = [
     },
     {
         num: 27, 
+        reduced: 9,
+        type: "core",
         title: "The Compassionate Sage", 
         keywords: ["Compassionate Wisdom", "Analytical Empathy", "Guidance", "Depth"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -255,6 +309,8 @@ export const lifePathNum = [
     },
     {
         num: 28, 
+        reduced: 1,
+        type: "core",
         title: "The Collaborative Commander", 
         keywords: ["Collaborative Command", "Executive Drive", "Partnership", "Resilience"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -264,6 +320,8 @@ export const lifePathNum = [
     },
     {
         num: 29, 
+        reduced: 2,
+        type: "master",
         title: "The Soulful Oracle", 
         keywords: ["Soulful Intuition", "Universal Empathy", "Spiritual Guidance", "Sensitivity"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -273,6 +331,8 @@ export const lifePathNum = [
     },
     {
         num: 30, 
+        reduced: 3,
+        type: "core",
         title: "The Inspired Storyteller", 
         keywords: ["Boundless Imagination", "Storytelling", "Joy", "Inspiration"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -282,6 +342,8 @@ export const lifePathNum = [
     },
     {
         num: 31, 
+        reduced: 4,
+        type: "core",
         title: "The Practical Innovator",
         keywords: ["Practical Innovation", "Structured Creativity", "Initiative", "Focus"],  
         content: `The Life represents your overarching journey, major life lessons, 
@@ -291,6 +353,8 @@ export const lifePathNum = [
     },
     {
         num: 32,
+        reduced: 5,
+        type: "core",
         title: "The Dynamic Connector", 
         keywords: ["Expressive Adaptability", "Charisma", "Diplomacy", "Movement"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -300,6 +364,8 @@ export const lifePathNum = [
     },
     {
         num: 33, 
+        reduced: 6,
+        type: "master",
         title: "The Master Teacher", 
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -309,6 +375,8 @@ export const lifePathNum = [
     },
     {
         num: 34,
+        reduced: 7,
+        type: "core",
         title: "The Creative Scholar",
         keywords: ["Creative Scholarship", "Methodical Insight", "Curiosity", "Study"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -318,6 +386,8 @@ export const lifePathNum = [
     },
     {
         num: 35, 
+        reduced: 8,
+        type: "core",
         title: "The Enterprising Visionary",
         keywords: ["Enterprising Creativity", "Adaptable Ambition", "Charisma", "Wealth"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -327,6 +397,8 @@ export const lifePathNum = [
     },
     {
         num: 36, 
+        reduced: 9,
+        type: "core",
         title: "The Heart-Centered Mentor", 
         keywords: ["Heart-Centered Service", "Creative Nurturing", "Generosity", "Duty"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -336,6 +408,8 @@ export const lifePathNum = [
     },
     {
         num: 37, 
+        reduced: 1,
+        type: "core",
         title: "The Original Philosopher", 
         keywords: ["Original Philosophy", "Independent Voice", "Truth-Seeking", "Authenticity"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -345,6 +419,8 @@ export const lifePathNum = [
     },
     {
         num: 38, 
+        reduced: 2,
+        type: "core",
         title: "The Intuitive Strategist",
         keywords: ["Intuitive Strategy", "Visionary Power", "Partnership", "Insight"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -354,6 +430,8 @@ export const lifePathNum = [
     },
     {
         num: 39, 
+        reduced: 3,
+        type: "core",
         title: "The Soulful Artist", 
         keywords: ["Soulful Artistry", "Expressive Empathy", "Teaching", "Inspiration"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -363,6 +441,8 @@ export const lifePathNum = [
     },
     {
         num: 40, 
+        reduced: 4,
+        type: "core",
         title: "The Unshakeable Anchor", 
         keywords: ["Grounded Stability", "Endurance", "Mastery", "Order"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -372,6 +452,8 @@ export const lifePathNum = [
     },
     {
         num: 41, 
+        reduced: 5,
+        type: "core",
         title: "The Structured Adventurer", 
         keywords: ["Structured Freedom", "Disciplined Adventure", "Initiative", "Progress"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -381,6 +463,8 @@ export const lifePathNum = [
     },
     {
         num: 42, 
+        reduced: 6,
+        type: "core",
         title: "The Protective Organizer", 
         keywords: ["Protective Systems", "Supportive Leadership", "Teamwork", "Duty"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -390,6 +474,8 @@ export const lifePathNum = [
     },
     {
         num: 43, 
+        reduced: 7,
+        type: "core",
         title: "The Methodical Mystic", 
         keywords: ["Methodical Wisdom", "Grounded Insight", "Patience", "Analysis"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -399,6 +485,8 @@ export const lifePathNum = [
     },
     {
         num: 44, 
+        reduced: 8,
+        type: "master",
         title: "The Master Architect", 
         keywords: ["Master Architecture", "Organizational Power", "Endurance", "Scale"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -408,6 +496,8 @@ export const lifePathNum = [
     },
     {
         num: 45, 
+        reduced: 9,
+        type: "core",
         title: "The Progressive Reformer", 
         keywords: ["Progressive Reform", "Practical Compassion", "Adaptability", "Service"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -417,6 +507,8 @@ export const lifePathNum = [
     },
     {
         num: 46, 
+        reduced: 1,
+        type: "core",
         title: "The Dependable Pioneer", 
         keywords: ["Dependable Leadership", "Systems-Building", "Responsibility", "Autonomy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -426,6 +518,8 @@ export const lifePathNum = [
     },
     {
         num: 47, 
+        reduced: 2,
+        type: "core",
         title: "The Grounded Seer", 
         keywords: ["Grounded Intuition", "Analytical Insight", "Practical Wisdom", "Depth"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -435,6 +529,8 @@ export const lifePathNum = [
     },
     {
         num: 48, 
+        reduced: 3,
+        type: "core",
         title: "The Productive Creator", 
         keywords: ["Productive Abundance", "Disciplined Power", "Creative Output", "Drive"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -444,6 +540,8 @@ export const lifePathNum = [
     },
     {
         num: 49, 
+        reduced: 4,
+        type: "karmic",
         title: "The Productive Creator", 
         keywords: ["Dedicated Service", "Patient Mastery", "Endurance", "Altruism"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -453,6 +551,8 @@ export const lifePathNum = [
     },
     {
         num: 50, 
+        reduced: 5,
+        type: "core",
         title: "The Fearless Nomad", 
         keywords: ["Fearless Exploration", "Limitless Freedom", "Adaptability", "Change"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -462,6 +562,8 @@ export const lifePathNum = [
     },
     {
         num: 51, 
+        reduced: 6,
+        type: "core",
         title: "The Adventurous Guardian", 
         keywords: ["Adventurous Duty", "Focused Care", "Freedom-in-Commitment", "Leadership"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -471,6 +573,8 @@ export const lifePathNum = [
     },
     {
         num: 52, 
+        reduced: 7,
+        type: "core",
         title: "The Intuitive Traveler", 
         keywords: ["Experiential Insight", "Sensitive Observation", "Curiosity", "Reflection"],
         content: `The Life represents your overarching journey, major life lessons, 
@@ -480,6 +584,8 @@ export const lifePathNum = [
     },
     {
         num: 53, 
+        reduced: 8,
+        type: "core",
         title: "The Persuasive Entrepreneur", 
         keywords: ["Persuasive Enterprise", "Dynamic Ambition", "Versatility", "Charisma"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -489,6 +595,8 @@ export const lifePathNum = [
     },
     {
         num: 54, 
+        reduced: 9,
+        type: "core",
         title: "The Worldly Humanitarian", 
         keywords: ["Worldly Compassion", "Grounded Experience", "Transition", "Wisdom"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -498,6 +606,8 @@ export const lifePathNum = [
     },
     {
         num: 55, 
+        reduced: 1,
+        type: "core",
         title: "The Bold Reinventor", 
         keywords: ["Bold Reinvention", "Fearless Independence", "Intensity", "Evolution"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -507,6 +617,8 @@ export const lifePathNum = [
     },
     {
         num: 56, 
+        reduced: 2,
+        type: "core",
         title: "The Free-Spirited Empath", 
         keywords: ["Free-Spirited Intuition", "Loyal Care", "Balance", "Empathy"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -516,6 +628,8 @@ export const lifePathNum = [
     },
     {
         num: 57, 
+        reduced: 3,
+        type: "core",
         title: "The Wandering Sage", 
         keywords: ["Philosophical Adventure", "Expressive Wisdom", "Curiosity", "Truth"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -525,6 +639,8 @@ export const lifePathNum = [
     },
     {
         num: 58, 
+        reduced: 4,
+        type: "core",
         title: "The Focused Dynamo", 
         keywords: ["Focused Intensity", "Dynamic Mastery", "Executive Discipline", "Power"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -534,6 +650,8 @@ export const lifePathNum = [
     },
     {
         num: 59, 
+        reduced: 5,
+        type: "core",
         title: "The Liberated Observer", 
         keywords: ["Liberated Wisdom", "Compassionate Detachment", "Balance", "Experience"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -543,6 +661,8 @@ export const lifePathNum = [
     },
     {
         num: 60, 
+        reduced: 6,
+        type: "core",
         title: "The Universal Caretaker", 
         keywords: ["Universal Stewardship", "Devoted Harmony", "Nurturing", "Grace"], 
         content: `The Life represents your overarching journey, major life lessons, 
@@ -552,6 +672,8 @@ export const lifePathNum = [
     },
     {
         num: 61, 
+        reduced: 7,
+        type: "core",
         title: "The Sovereign Mystic",
         keywords: ["Sovereign Mastery", "Responsible Independence", "Spiritual Depth", "Vision"],  
         content: `The Life represents your overarching journey, major life lessons, 

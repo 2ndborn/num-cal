@@ -1,6 +1,8 @@
 export const mature = [
     {
         num: 1,
+        reduced: 1,
+        type: "core",
         title: "The Independent Leader",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -14,6 +16,8 @@ export const mature = [
     },
     {
         num: 2,
+        reduced: 2,
+        type: "core",
         title: "The Wise Peacemaker", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -27,6 +31,8 @@ export const mature = [
     },
     {
         num: 3, 
+        reduced: 3,
+        type: "core",
         title: "The Joyful Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -40,6 +46,8 @@ export const mature = [
     },
     {
         num: 4,
+        reduced: 4,
+        type: "core",
         title: "The Grounded Architect",
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -53,6 +61,8 @@ export const mature = [
     },
     {
         num: 5, 
+        reduced: 5,
+        type: "core",
         title: "The Liberated Explorer",
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -66,6 +76,8 @@ export const mature = [
     },
     {
         num: 6, 
+        reduced: 6,
+        type: "core",
         title: "The Devoted Steward", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -79,6 +91,8 @@ export const mature = [
     },
     {
         num: 7, 
+        reduced: 7,
+        type: "core",
         title: "The Inner Sage", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -92,6 +106,8 @@ export const mature = [
     },
     {
         num: 8, 
+        reduced: 8,
+        type: "core",
         title: "The Strategic Executive",
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -105,6 +121,8 @@ export const mature = [
     },
     {
         num: 9, 
+        reduced: 9,
+        type: "core",
         title: "The Compassionate Humanitarian", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -118,6 +136,8 @@ export const mature = [
     },
     {
         num: 11, 
+        reduced: 2,
+        type: "master",
         title: "The Inituitive Guide", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -131,6 +151,8 @@ export const mature = [
     },
     {
         num: 22, 
+        reduced: 4,
+        type: "master",
         title: "The Master Architect", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Maturity Number stays relatively quiet in your 20s 
@@ -144,6 +166,8 @@ export const mature = [
     },
     {
         num: 33, 
+        reduced: 6,
+        type: "master",
         title: "The Master Teacher / Healer",
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Maturity Number stays relatively quiet in your 20s 

@@ -1,6 +1,8 @@
 export const soulResults = [
     {
-        num: 1, 
+        num: 1,
+        reduced: 1,
+        type: "core", 
         title: "The Leader / Pioneer",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -10,6 +12,8 @@ export const soulResults = [
     },
     {
         num: 2, 
+        reduced: 2,
+        type: "core",
         title: "The Connector / Diplomat", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -19,6 +23,8 @@ export const soulResults = [
     },
     {
         num: 3, 
+        reduced: 3,
+        type: "core",
         title: "The Creator / Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -27,7 +33,9 @@ export const soulResults = [
         freedom.`
     },
     {
-        num: 4, 
+        num: 4,
+        reduced: 4,
+        type: "core", 
         title: "The Builder / Organiser", 
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -35,7 +43,9 @@ export const soulResults = [
         by order, security, loyalty, and tangible, step-by-step progress.`
     },
     {
-        num: 5, 
+        num: 5,
+        reduced: 5,
+        type: "core", 
         title: "The Explorer / Catalyst", 
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -44,6 +54,8 @@ export const soulResults = [
     },
     {
         num: 6, 
+        reduced: 6,
+        type: "core",
         title: "The Nurturer / Steward", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -51,7 +63,9 @@ export const soulResults = [
         by love, domestic stability, beauty, and being needed and appreciated.`
     },
     {
-        num: 7, 
+        num: 7,
+        reduced: 7,
+        type: "core", 
         title: "The Seeker / Strategist", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -60,6 +74,8 @@ export const soulResults = [
     },
     {
         num: 8, 
+        reduced: 8,
+        type: "core",
         title: "The Manifestor / Executive", 
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -68,6 +84,8 @@ export const soulResults = [
     },
     {
         num: 9, 
+        reduced: 9,
+        type: "core",
         title: "The Humanitarian / Sage", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -77,6 +95,8 @@ export const soulResults = [
     },
     {
         num: 11, 
+        reduced: 2,
+        type: "master",
         title: "The Inituitive Illuminator", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -86,6 +106,8 @@ export const soulResults = [
     },
     {
         num: 22, 
+        reduced: 4,
+        type: "master",
         title: "The Master Builder", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 
@@ -94,7 +116,9 @@ export const soulResults = [
         impact.`
     },
     {
-        num: 33, 
+        num: 33,
+        reduced: 6,
+        type: "master", 
         title: "The Master Teacher / Healer", 
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `Your Soul Urge number is your inner motivation, deepest values, 

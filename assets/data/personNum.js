@@ -1,6 +1,8 @@
 export const personNum = [
     {
         num: 1,
+        reduced: "core",
+        type: "core",
         title: "The Leader / Pioneer",
         keywords: ["Independence", "Leadership", "Innovation", "Initiative", "Courage"], 
         content: `The Personality number is your outer "shell" or 
@@ -10,6 +12,8 @@ export const personNum = [
     },
     {
         num: 2,
+        reduced: 2,
+        type: "core",
         title: "The Connector / Diplomat", 
         keywords: ["Cooperation", "Diplomacy", "Sensitivity", "Harmony", "Partnership"], 
         content: `The Personality number is your outer "shell" or 
@@ -19,6 +23,8 @@ export const personNum = [
     },
     {
         num: 3, 
+        reduced: 3,
+        type: "core",
         title: "The Creator / Communicator", 
         keywords: ["Creativity", "Expression", "Optimism", "Communication", "Joy"], 
         content: `The Personality number is your outer "shell" or 
@@ -28,6 +34,8 @@ export const personNum = [
     },
     {
         num: 4,
+        reduced: 4,
+        type: "core",
         title: "The Builder / Organiser",
         keywords: ["Structure", "Discipline", "Stability", "Reliability", "Hard Work"], 
         content: `The Personality number is your outer "shell" or 
@@ -37,6 +45,8 @@ export const personNum = [
     },
     {
         num: 5, 
+        reduced: 5,
+        type: "core",
         title: "The Explorer / Catalyst",
         keywords: ["Freedom", "Adaptability", "Adventure", "Curiosity", "Progress"], 
         content: `The Personality number is your outer "shell" or 
@@ -46,6 +56,8 @@ export const personNum = [
     },
     {
         num: 6, 
+        reduced: 6,
+        type: "core",
         title: "The Nurturer / Steward", 
         keywords: ["Nurturing", "Responsibility", "Care", "Balance", "Community"], 
         content: `The Personality number is your outer "shell" or 
@@ -55,6 +67,8 @@ export const personNum = [
     },
     {
         num: 7, 
+        reduced: 5,
+        type: "core",
         title: "The Seeker / Strategist", 
         keywords: ["Wisdom", "Analysis", "Intuition", "Truth", "Introspection"], 
         content: `The Personality number is your outer "shell" or 
@@ -64,6 +78,8 @@ export const personNum = [
     },
     {
         num: 8, 
+        reduced: 8,
+        type: "core",
         title: "The Manifestor / Executive",
         keywords: ["Power", "Abundance", "Authority", "Strategy", "Manifestation"], 
         content: `The Personality number is your outer "shell" or 
@@ -73,6 +89,8 @@ export const personNum = [
     },
     {
         num: 9, 
+        reduced: 9,
+        type: "core",
         title: "The Humanitarian / Sage", 
         keywords: ["Compassion", "Completion", "Humanitarianism", "Generosity", "Vision"], 
         content: `The Personality number is your outer "shell" or 
@@ -81,7 +99,9 @@ export const personNum = [
         and dignified.`
     },
     {
-        num: 11, 
+        num: 11,
+        reduced: 2,
+        type: "master", 
         title: "The Inituitive Illuminator", 
         keywords: ["Mastery", "Architecture", "Vision", "Manifestation", "Legacy"], 
         content: `The Personality number is your outer "shell" or 
@@ -90,7 +110,9 @@ export const personNum = [
         intriguing, and visionary.`
     },
     {
-        num: 22, 
+        num: 22,
+        reduced: 4,
+        type: "master", 
         title: "The Master Builder", 
         keywords: ["Social Magnetism", "Optimism", "Expressive Confidence", "Diplomacy"], 
         content: `The Personality number is your outer "shell" or 
@@ -99,7 +121,9 @@ export const personNum = [
         and focused on big goals.`
     },
     {
-        num: 33, 
+        num: 33,
+        reduced: 6,
+        type: "master", 
         title: "The Master Teacher / Healer",
         keywords: ["Master Teaching", "Healing Care", "Unconditional Service", "Devotion"], 
         content: `The Personality number is your outer "shell" or 

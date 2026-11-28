@@ -255,17 +255,13 @@ const allResults = () => {
     const dn = nameNumbers();
     const mat = maturityNumber(lp, dn);
     const life = getResults(lifePathNum, lp.major, lp.minor)
-    const birthDate = getResults(birthDay, lp.dayMajor, lp.dayMajor)
+    const birthDate = getResults(birthDay, lp.dayMajor, lp.dayMinor)
     const destiny = getResults(destinyNum, dn.major, dn.minor);
     const soul = getResults(soulResults, dn.soulU);
     const person = getResults(personNum, dn.perso);
     const maturity = getResults(mature, mat);   
     const pinnacle = pinnacleNumber(lp.dayMinor, lp.month, lp.year)
     const challenge = challengeNumber(lp.dayMinor, lp.month, lp.year)
-    // const firstChallenge = getResults(challengeData, challenge.first);
-    // const secondChallenge = getResults(challengeData, challenge.second);
-    // const thirdChallenge = getResults(challengeData, challenge.third);
-    // const fourthChallenge = getResults(challengeData, challenge.fourth);
     const dayKarmic = masterKarmic(lp.dayMajor); // Remember to change this....
     const lifeKarmic = masterKarmic(lp.major);
     console.log("Result:", soul)
@@ -316,11 +312,11 @@ const allResults = () => {
         <h4>Keywords: ${challenge?.first?.keywords.join(" | ")}</h4>
         <p>${challenge.first?.content}</p>
         <p><strong>Mastery</strong>: ${challenge?.first?.mastery}</p>
-        <h4>2nd Challenge <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${challenge?.second}:</h4>
+        <h4>2nd Challenge <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${challenge?.second.num}:</h4>
         <h4>Keywords: ${challenge?.second?.keywords.join(" | ")}</h4>
         <p>${challenge?.second?.content}</p>
         <p><strong>Mastery</strong>: ${challenge?.second?.mastery}</p>
-        <h4>3rd Challenge <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${challenge?.third}:</h4>
+        <h4>3rd Challenge <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${challenge?.third.num}:</h4>
         <h4>Keywords: ${challenge?.third?.keywords.join(" | ")}</h4>
         <p>${challenge?.third?.content}</p>
         <p><strong>Mastery</strong>: ${challenge?.third?.mastery}</p>

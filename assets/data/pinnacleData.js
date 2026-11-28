@@ -1,6 +1,8 @@
 export const pinnacleData = [
   {
     num: 1,
+    reduced: 1,
+    type: "core",
     title: "Independence & Leadership",
     keywords: ["Independence", "Leadership", "Initiative"],
     content: `A chapter that pushes you to stand on your own two feet,
@@ -9,6 +11,8 @@ export const pinnacleData = [
   },
   {
     num: 2,
+    reduced: 2,
+    type: "core",
     title: "Cooperation, Patience & Intuition",
     keywords: ["Cooperation", "Patience", "Intuition"],
     content: `A slower-paced, relationship-focused chapter emphasizing
@@ -16,6 +20,8 @@ export const pinnacleData = [
   },
   {
     num: 3,
+    reduced: 3,
+    type: "core",
     title: "Creativity, Expression & Joy",
     keywords: ["Creativity", "Expression", "Joy"],
     content: `A lively, social chapter encouraging communication,
@@ -23,6 +29,8 @@ export const pinnacleData = [
   },
   {
     num: 4,
+    reduced: 4,
+    type: "core",
     title: "Structure, Hard Work & Stability",
     keywords: ["Structure", "Discipline", "Stability"],
     content: `A grounded, practical chapter focused on building lasting
@@ -30,6 +38,8 @@ export const pinnacleData = [
   },
   {
     num: 5,
+    reduced: 5,
+    type: "core",
     title: "Freedom, Change & Expansion",
     keywords: ["Freedom", "Change", "Expansion"],
     content: `A dynamic, fast-moving chapter bringing travel, career pivots,
@@ -37,6 +47,8 @@ export const pinnacleData = [
   },
   {
     num: 6,
+    reduced: 6,
+    type: "core",
     title: "Responsibility, Home & Nurturing",
     keywords: ["Responsibility", "Home", "Nurturing"],
     content: `A heart-centered chapter focused on family, community duty,
@@ -44,6 +56,8 @@ export const pinnacleData = [
   },
   {
     num: 7,
+    reduced: 7,
+    type: "core",
     title: "Introspection, Wisdom & Specialization",
     keywords: ["Introspection", "Wisdom", "Expertise"],
     content: `A reflective, inward-turning chapter encouraging research,
@@ -51,6 +65,8 @@ export const pinnacleData = [
   },
   {
     num: 8,
+    reduced: 8,
+    type: "core",
     title: "Authority, Achievement & Abundance",
     keywords: ["Authority", "Achievement", "Abundance"],
     content: `A high-powered, results-driven chapter centered on leadership,
@@ -58,6 +74,8 @@ export const pinnacleData = [
   },
   {
     num: 9,
+    reduced: 9,
+    type: "core",
     title: "Compassion, Completion & Service",
     keywords: ["Compassion", "Completion", "Service"],
     content: `A broad, humanitarian chapter focused on generosity,
@@ -65,6 +83,8 @@ export const pinnacleData = [
   },
   {
     num: 11,
+    reduced: 2,
+    type: "master",
     title: "Spiritual Insight & Illumination",
     keywords: ["Intuition", "Inspiration", "Illumination"],
     content: `Amplifies the 2 Pinnacle into a high-voltage chapter of
@@ -73,6 +93,8 @@ export const pinnacleData = [
   },
   {
     num: 22,
+    reduced: 4,
+    type: "master",
     title: "Master Building & Large-Scale Impact",
     keywords: ["Vision", "Master Building", "Impact"],
     content: `Amplifies the 4 Pinnacle into a chapter of turning ambitious,
@@ -81,6 +103,8 @@ export const pinnacleData = [
   },
   {
     num: 13,
+    reduced: 4,
+    type: "karmic",
     title: "Focused Effort & Discipline",
     keywords: ["Discipline", "Persistence", "Work Ethic"],
     content: `A 4 chapter that removes shortcuts and teaches you to overcome
@@ -88,6 +112,8 @@ export const pinnacleData = [
   },
   {
     num: 14,
+    reduced: 5,
+    type: "karmic",
     title: "Freedom Through Self-Discipline",
     keywords: ["Freedom", "Adaptability", "Moderation"],
     content: `A 5 chapter of rapid change and shifting plans that teaches
@@ -96,6 +122,8 @@ export const pinnacleData = [
   },
   {
     num: 16,
+    reduced: 7,
+    type: "karmic",
     title: "Ego Renewal & Inner Truth",
     keywords: ["Transformation", "Humility", "Truth"],
     content: `A 7 chapter of deep personal transformation that strips away
@@ -104,6 +132,8 @@ export const pinnacleData = [
   },
   {
     num: 19,
+    reduced: 1,
+    type: "karmic",
     title: "Self-Reliance & Humility",
     keywords: ["Self-Reliance", "Leadership", "Humility"],
     content: `A 1 chapter that pushes you to stand completely on your own,
