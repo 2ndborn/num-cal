@@ -169,8 +169,27 @@ const pinnacleNumber = (day, mon, year) => {
     const specThree = getSpecialNumber(pinOne + pinTwo)
     const specFour = getSpecialNumber(day + mon)
     return {
-        one: pinOne, two: pinTwo, three: pinThree, four: pinFour,
-        oneMK: specOne, twoMK: specTwo, threeMK: specThree, fourMK: specFour
+        one: 
+        {
+            result: getResults(pinnacleData, pinOne, specOne),
+            reduced: pinOne,
+            special: specOne,
+        },
+        two: {
+            result: getResults(pinnacleData, pinTwo, specTwo),
+            reduced: pinTwo,
+            special: specTwo,
+        },
+        three: {
+            result: getResults(pinnacleData, pinThree, specThree),
+            reduced: pinThree,
+            special: specThree,
+        },
+        four: {
+            result: getResults(pinnacleData, pinFour, specFour),
+            reduced: pinFour,
+            special: specFour,
+        }
     }
 }
 
@@ -179,7 +198,12 @@ const challengeNumber = (day, mon, year) => {
     const two = Math.abs(day - year);
     const three = Math.abs(one - two);
     const four = Math.abs(mon - year);
-    return {first: one, second: two, third: three, fourth: four}
+    return {
+        first: getResults(challengeData, one),
+        second: getResults(challengeData, two),
+        third: getResults(challengeData, three),
+        fourth: getResults(challengeData, four),
+    }
 }
 
 const reduceMinor = (n) => {
@@ -218,7 +242,7 @@ const masterKarmic = (num) => {
     return ""
 }
 
-const getResults = (data, major, special) => {
+const getResults = (data, major, special = null) => {
     // finds the content that matches the number
     const specialMatch = data.find(item => item.num === special?.value)
 
@@ -237,15 +261,11 @@ const allResults = () => {
     const person = getResults(personNum, dn.perso);
     const maturity = getResults(mature, mat);   
     const pinnacle = pinnacleNumber(lp.dayMinor, lp.month, lp.year)
-    const pinnOne = getResults(pinnacleData, pinnacle.one, pinnacle.oneMK)
-    const pinnTwo = getResults(pinnacleData, pinnacle.two, pinnacle.twoMK)
-    const pinnThree = getResults(pinnacleData, pinnacle.three, pinnacle.threeMK)
-    const pinnFour = getResults(pinnacleData, pinnacle.four, pinnacle.fourMK)
     const challenge = challengeNumber(lp.dayMinor, lp.month, lp.year)
-    const firstChallenge = getResults(challengeData, challenge.first);
-    const secondChallenge = getResults(challengeData, challenge.second);
-    const thirdChallenge = getResults(challengeData, challenge.third);
-    const fourthChallenge = getResults(challengeData, challenge.fourth);
+    // const firstChallenge = getResults(challengeData, challenge.first);
+    // const secondChallenge = getResults(challengeData, challenge.second);
+    // const thirdChallenge = getResults(challengeData, challenge.third);
+    // const fourthChallenge = getResults(challengeData, challenge.fourth);
     const dayKarmic = masterKarmic(lp.dayMajor); // Remember to change this....
     const lifeKarmic = masterKarmic(lp.major);
     console.log("Result:", soul)
@@ -264,50 +284,50 @@ const allResults = () => {
         <h4>Keywords: ${destiny?.keywords.join(" | ")}</h4>
         <p>${destiny?.content}</p>
         <h2><span>Soul Urge Number: </span>${dn.soulU} - ${soul?.title}</h2>
-        <h4>${soul?.keywords.join(" | ") || ""}</h4>
+        <h4>Keywords: ${soul?.keywords.join(" | ") || ""}</h4>
         <p>${soul?.content || "You have no vowels in your name."}</p>
         <h2><span>Personality Number: </span>${dn.perso} - ${person?.title}</h2>
-        <h4>${person.keywords.join(" | ")}</h4>
+        <h4>Keywords: ${person.keywords.join(" | ")}</h4>
         <p>${person?.content}</p>
         <h2><span>Maturity Number: </span>${mat} - ${maturity?.title}</h2>
-        <h4>${maturity.keywords.join(" | ")}</h4>
+        <h4>Keywords: ${maturity.keywords.join(" | ")}</h4>
         <p>${maturity?.content}</p>
         <h2><span>Pinnacle Numbers: </span></h2>
         <p>Pinnacle numbers represent the four major seasons or "climates" of your 
         life, showing the overarching themes, external opportunities, and kinds of 
         growth you encounter during each phase.</p>
-        <h3>1st Pinnacle <i>(from Birth  to ${36 - lp.minor})</i> - ${pinnacle?.oneMK?.value ? `${pinnacle?.oneMK?.value} / ` : ""}${pinnacle?.one} ${pinnacle?.oneMK?.message ? `${pinnacle?.oneMK?.message}` : ""}:</h3>
-        <h4>${pinnOne?.keywords.join(" | ")}</h4>
-        <p>${pinnOne?.content}</p>
-        <h4>2nd Pinnacle <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${pinnacle?.twoMK?.value ? `${pinnacle?.twoMK?.value} / ` : ""}${pinnacle?.two} ${pinnacle?.twoMK?.message ? `${pinnacle?.twoMK?.message}` : ""}:</h4>
-        <h4>${pinnTwo?.keywords.join(" | ")}</h4>
-        <p>${pinnTwo?.content}</p>
-        <h4>3rd Pinnacle <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${pinnacle?.threeMK?.value ? `${pinnacle?.threeMK?.value} / ` : ""}${pinnacle?.three} ${pinnacle?.threeMK?.message ? `${pinnacle?.threeMK?.message}` : ""}:</h4>
-        <h4>${pinnThree?.keywords.join(" | ")}</h4>
-        <p>${pinnThree?.content}</p>
-        <h4>4th Pinnacle <i>(from ${36 - lp.minor + 18} onward)</i> - ${pinnacle?.fourMK?.value ? `${pinnacle?.fourMK?.value} / ` : ""}${pinnacle?.four} ${pinnacle?.fourMK?.message ? `${pinnacle?.fourMK?.message}` : ""}:</h4>
-        <h4>${pinnFour?.keywords.join(" | ")}</h4>
-        <p>${pinnFour?.content}</p>
+        <h3>1st Pinnacle <i>(from Birth to ${36 - lp.minor})</i> - ${pinnacle?.one?.special?.value ? `${pinnacle?.one?.special?.value} / ` : ""}${pinnacle?.one.reduced} ${pinnacle?.one?.special?.message ? `${pinnacle?.one?.special?.message}` : ""}:</h3>
+        <h4>Keywords: ${pinnacle?.one.result.keywords.join(" | ")}</h4>
+        <p>${pinnacle?.one?.result?.content}</p>
+        <h3>2nd Pinnacle <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${pinnacle?.two?.special?.value ? `${pinnacle?.two?.special?.value} / ` : ""}${pinnacle?.two.reduced} ${pinnacle?.two?.special?.message ? `${pinnacle?.two?.special?.message}` : ""}:</h3>
+        <h4>Keywords: ${pinnacle?.two.result.keywords.join(" | ")}</h4>
+        <p>${pinnacle?.two?.result?.content}</p>
+        <h3>3rd Pinnacle <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${pinnacle?.three?.special?.value ? `${pinnacle?.three?.special?.value} / ` : ""}${pinnacle?.three.reduced} ${pinnacle?.three?.special?.message ? `${pinnacle?.three?.special?.message}` : ""}:</h3>
+        <h4>Keywords: ${pinnacle?.three.result.keywords.join(" | ")}</h4>
+        <p>${pinnacle?.three?.result?.content}</p>
+        <h3>4th Pinnacle <i>(from ${36 - lp.minor + 18} onward)</i> - ${pinnacle?.four?.special?.value ? `${pinnacle?.four?.special?.value} / ` : ""}${pinnacle?.four.reduced} ${pinnacle?.four?.special?.message ? `${pinnacle?.four?.special?.message}` : ""}:</h3>
+        <h4>Keywords: ${pinnacle?.four.result.keywords.join(" | ")}</h4>
+        <p>${pinnacle?.four?.result?.content}</p>
         <h2><span>Challenge Numbers: </span></h2>
         <p>Challenge numbers represent the internal lessons, blind spots, and personal 
         muscles you are asked to build during each of your four life chapters so you 
         can make the most of the corresponding Pinnacle.</p>
-        <h3>1st Challenge <i>(from Birth  to ${36 - lp.minor})</i> - ${challenge?.first}:</h3>
-        <h4>${firstChallenge?.keywords.join(" | ")}</h4>
-        <p>${firstChallenge?.content}</p>
-        <p><strong>Mastery</strong>: ${firstChallenge?.mastery}</p>
+        <h3>1st Challenge <i>(from Birth  to ${36 - lp.minor})</i> - ${challenge?.first?.num}:</h3>
+        <h4>Keywords: ${challenge?.first?.keywords.join(" | ")}</h4>
+        <p>${challenge.first?.content}</p>
+        <p><strong>Mastery</strong>: ${challenge?.first?.mastery}</p>
         <h4>2nd Challenge <i>(from ${36 - lp.minor} to ${36 - lp.minor + 9})</i> - ${challenge?.second}:</h4>
-        <h4>${secondChallenge?.keywords.join(" | ")}</h4>
-        <p>${secondChallenge?.content}</p>
-        <p><strong>Mastery</strong>: ${secondChallenge?.mastery}</p>
+        <h4>Keywords: ${challenge?.second?.keywords.join(" | ")}</h4>
+        <p>${challenge?.second?.content}</p>
+        <p><strong>Mastery</strong>: ${challenge?.second?.mastery}</p>
         <h4>3rd Challenge <i>(from ${36 - lp.minor + 9} to ${36 - lp.minor + 18})</i> - ${challenge?.third}:</h4>
-        <h4>${thirdChallenge?.keywords.join(" | ")}</h4>
-        <p>${thirdChallenge?.content}</p>
-        <p><strong>Mastery</strong>: ${thirdChallenge?.mastery}</p>
-        <h4>4th Challenge <i>(from ${36 - lp.minor + 18} onward)</i> - ${challenge?.fourth}:</h4>
-        <h4>${fourthChallenge?.keywords.join(" | ")}</h4>
-        <p>${fourthChallenge?.content}</p>
-        <p><strong>Mastery</strong>: ${fourthChallenge?.mastery}</p>
+        <h4>Keywords: ${challenge?.third?.keywords.join(" | ")}</h4>
+        <p>${challenge?.third?.content}</p>
+        <p><strong>Mastery</strong>: ${challenge?.third?.mastery}</p>
+        <h4>4th Challenge <i>(from ${36 - lp.minor + 18} onward)</i> - ${challenge?.fourth?.num}:</h4>
+        <h4>Keywords: ${challenge?.fourth?.keywords.join(" | ")}</h4>
+        <p>${challenge?.fourth?.content}</p>
+        <p><strong>Mastery</strong>: ${challenge?.fourth?.mastery}</p>
     `
 }
 
